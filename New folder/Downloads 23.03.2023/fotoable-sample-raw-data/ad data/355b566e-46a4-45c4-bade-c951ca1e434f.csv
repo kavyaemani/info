@@ -1,0 +1,7 @@
+date(DateTimeOffset),channel(String),optimize(String),impression(Int64),cost(Decimal),new_user(Int64),day1_revenue(Decimal),day7_revenue(Decimal),day14_revenue(Decimal)
+9/24/2022 12:00:00 AM +00:00,Moloco (qndPqBpJ1dAMf41N),ROAS,903975,1569.79,175,9.72,45.77,87.22
+9/24/2022 12:00:00 AM +00:00,Kyawake (Dreamisland_iOS_hw_US_broad_roas_0901_kyawake_nat),ROAS,0,16.5,0,0,0,0
+9/24/2022 12:00:00 AM +00:00,Kyawake (Dreamisland_iOS_hw_US_broad_roas_0629_kyawake_can),ROAS,0,478.5,70,23.5,64.72,66.46
+9/24/2022 12:00:00 AM +00:00,GoogleUAC (18326215839),ROAS,13117,689.79,0,0,0,0
+9/24/2022 12:00:00 AM +00:00,Facebook (23849554058460631),ROAS,143851,3334.73,0,0,0,0
+9/24/2022 12:00:00 AM +00:00,Applovin (2b5a3e161e7c1e7999d0d5cf7c1605fb),ROAS,43104,9612.47,272,159.11,1311.64,2520.17

@@ -1,0 +1,27 @@
+Variable,Level 0,Level 1,Groups,Level 2
+TikTok_Install,Incremental,Media,Install,Install
+TikTok_AEO,Incremental,Media,AEO,AEO
+Google_UAC_Install,Incremental,Media,UAC,Install
+Google_UAC_AEO,Incremental,Media,UAC,AEO
+Unity_Install,Incremental,Media,Install,Install
+Unity_ROAS,Incremental,Media,ROAS,ROAS
+IronSource_Install,Incremental,Media,Install,Install
+Vungle_Roas,Incremental,Media,Roas,Roas
+Vungle_Other,Incremental,Media,Other,Other
+Applovin_AEO,Incremental,Media,AEO,AEO
+Applovin_Install,Incremental,Media,Install,Install
+Applovin_Roas,Incremental,Media,Roas,Roas
+Chart_Boost_Roas,Incremental,Media,Boost,Roas
+AppleSearch_Install,Incremental,Media,Install,Install
+AppleSearch_Roas,Incremental,Media,Roas,Roas
+Liftoff_Other,Incremental,Media,Other,Other
+Moloco_Roas,Incremental,Media,Roas,Roas
+Appier_Install,Incremental,Media,Install,Install
+Kyawake_Other,Incremental,Media,Other,Other
+Mobupps_AEO,Incremental,Media,AEO,AEO
+Facebook_AEO,Incremental,Media,AEO,AEO
+Facebook_INSTALL,Incremental,Media,INSTALL,INSTALL
+Facebook_ROAS,Incremental,Media,ROAS,ROAS
+New_content,Incremental,Non_Media,,
+Bug_fix,Incremental,Non_Media,,
+In_game_event,Incremental,Non_Media,,

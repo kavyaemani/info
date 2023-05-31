@@ -1,0 +1,6 @@
+date(DateTimeOffset),channel(String),optimize(String),impression(Int64),cost(Decimal),new_user(Int64),day1_revenue(Decimal),day7_revenue(Decimal),day14_revenue(Decimal)
+10/18/2022 12:00:00 AM +00:00,Kyawake (Dreamisland_iOS_hw_US_broad_roas_0901_kyawake_nat),ROAS,0,11,0,0,0,0
+10/18/2022 12:00:00 AM +00:00,Kyawake (Dreamisland_iOS_hw_US_broad_roas_0629_kyawake_can),ROAS,0,1034,172,6.52,41.52,41.62
+10/18/2022 12:00:00 AM +00:00,GoogleUAC (18326215839),ROAS,131,13.26,0,0,0,0
+10/18/2022 12:00:00 AM +00:00,Facebook (23849554058460631),ROAS,159480,3014.25,0,0,0,0
+10/18/2022 12:00:00 AM +00:00,Applovin (2b5a3e161e7c1e7999d0d5cf7c1605fb),ROAS,44497,9247.08,319,65.59,564.75,1019.9

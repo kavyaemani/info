@@ -1,0 +1,6 @@
+variables,value,comment
+dependentVar,App_Install,Compulsory
+dateVar,Date,Compulsory
+dateFormat,%Y-%m-%d,"Optional,Default =%Y-%m-%d"
+CF,1,"Optional,Default =1"
+trainDataPercentage,90,"Optional,Default=90"

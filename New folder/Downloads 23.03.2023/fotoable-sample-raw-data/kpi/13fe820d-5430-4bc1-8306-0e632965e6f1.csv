@@ -1,0 +1,2 @@
+date(DateTimeOffset),day7_revenue(Decimal),new_user(Int64),retention(Double),active_revenue(Decimal)
+10/20/2022 12:00:00 AM +00:00,1622.11,774,0.4302,24874.16

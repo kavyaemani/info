@@ -1,0 +1,27 @@
+Default,Main,Title,Level,Platform Transformation,Transformation Parameter 1,Transformation Parameter 2,Transformation Parameter 3,Coefficient,POS
+Incremental,Media,TikTok_Install,Install,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,TikTok_AEO,AEO,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Google_UAC_Install,UAC,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Google_UAC_AEO,UAC,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Unity_Install,Install,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Unity_ROAS,ROAS,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,IronSource_Install,Install,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Vungle_Roas,Roas,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Vungle_Other,Other,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Applovin_AEO,AEO,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Applovin_Install,Install,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Applovin_Roas,Roas,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Chart_Boost_Roas,Boost,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,AppleSearch_Install,Install,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,AppleSearch_Roas,Roas,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Liftoff_Other,Other,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Moloco_Roas,Roas,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Appier_Install,Install,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Kyawake_Other,Other,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Mobupps_AEO,AEO,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Facebook_AEO,AEO,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Facebook_INSTALL,INSTALL,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Facebook_ROAS,ROAS,Ad-Stock,1,1,0.1,0,positive
+Incremental,Non_Media,New_content,,Direct,0,0,0,0,positive
+Incremental,Non_Media,Bug_fix,,Direct,0,0,0,0,positive
+Incremental,Non_Media,In_game_event,,Direct,0,0,0,0,positive
