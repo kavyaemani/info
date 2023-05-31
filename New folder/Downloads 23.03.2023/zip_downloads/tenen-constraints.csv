@@ -1,0 +1,26 @@
+Default,Main,Title,Level,Platform Transformation,Transformation Parameter 1,Transformation Parameter 2,Transformation Parameter 3,Coefficient,POS
+Base,Baseline,Covid_Retail_and_recreation,Covid,Direct,0,0,0,0,either
+Incremental,NonMedia,Discounted_Amount,Discount,Direct,0,0,0,0,positive
+Incremental,Media,Email_Sessions_Total,Email,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,FB_Imp_Female,Facebook,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,FB_Imp_Male_OffSeason,Facebook,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,FB_Imp_Male_OnSeason,Facebook,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,FB_Male_valentine,Facebook,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Google_Brand_Imp,Google,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Google_Display_Imp,Google,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Google_RMKT_Imp,Google,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Google_Search_Imp,Google,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Google_Shopping_Imp,Google,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,Google_YouTube_Imp,Google,Ad-Stock,1,1,0.1,0,positive
+Incremental,NonMedia,H_Christmas_Total,Holidays,Gamma,1,1,0.1,0,either
+Incremental,NonMedia,H_MothersDay_Total,Holidays,Gamma,1,1,0.1,0,either
+Incremental,NonMedia,H_Valentines_Total,Holidays,Gamma,1,1,0.1,0,either
+Incremental,Media,bing_impressions,Bing,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,criteo_impressions,Criteo,Ad-Stock,1,1,0.1,0,positive
+Base,Baseline,organic_sessions,Organic,Direct,0,0,0,0,either
+Incremental,Media,pinterest_impressions,Pinterest,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,reddit_impressions,Reddit,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,taboola_impressions,Taboola,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,tiktok_impressions,Tiktok,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,twitter_impressions,Twitter,Ad-Stock,1,1,0.1,0,positive
+Incremental,Media,yahoo_impressions,Yahoo,Ad-Stock,1,1,0.1,0,positive
