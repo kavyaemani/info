@@ -1,0 +1,1712 @@
+﻿Please find attached the Sprite preliminary deck. Just wanted to have your review before we send it out to CCI.
+Please let us know an alternate time if it’s not suitable.
+Kindly review it and share your feedback.
+
+
+Have reviewed Thums Up slide with Amit.
+
+Attaching the updated version herewith.
+Please find attached the Sprite preliminary deck for MVA 2020 model update.
+
+Also, attached the excel summary sheet for your reference for detailed results.
+
+Kindly let us know when would be a good time to connect over the same.
+Have you had a look at the deck?
+
+
+Just given a try to write the Comments, you can change that later 
+For covid n mobility data I think we can write about the direct and inverse corrletaion with t KPI by looking at the graph
+
+I have already QCd all numbers but will do that again
+
+We have made all the changes mentioned in our early morning connect – 
+_________________________________________________________________________________________
+
+Average surge Multiplier and supply demand multiplier:
+
+When demand for rides outstrips the supply of cars, surge pricing kicks in, increasing the price.
+ You’ll automatically see a 'surge' icon …. If you still want a ride, Uber shows the surge multiplier
+ and then asks for your consent to that higher price. 
+
+
+peak-hours, bad weather conditions (rain, snow, etc), events (concerts, movie-premiere),
+ traffic conditions, unseen emergencies and so on.
+
+________________________________________________________________________________________________
+
+There are 3 tabs for activated and 3 for Not activcated
+We are supposed to use the green tabs and one contains when mail sent users and another when the activated 
+
+
+	
+Referral Sender Bonus cost- 3,735,402
+Referral Receiver Bonus Cost-7,170,256
+
+Referral new: 
+Invite Cost- 7,235,918
+Bonus cost- 3,651,086
+___________________________________________________________________________________________________________________________
+
+Next week onwards we can meet for bolt call using Teams
+I donno I was supposed to ask you something but forgot
+_________________________________________________________________________________________________________________
+
+1.Saturation of KPI: Market get saturated for London  huge drop in Covid time.. summer autumn they spent..
+activations 2020 due didn't do any  investsments into drivers decrease the communication reduced discounts for whoever registered started to grow again locdown was not that strict
+
+
+not sure saturation specifically about 
+Saturation arrive in future like what we do in performance market in analytics
+metric called cannibalization where we compare volumes over active riders of the last year in metropolitan area of the city
+
+FB data AE will do t
+
+Sebastin- Next week- For each media channel AE to make a proposal on # of questions for different buckets/Metrics
+ so that if we could go more granular if possible in some these buckets
+
+ 
+1.Polina to confirm/share the recent data for additional two months if it's available for all the metrics/drivers.
+2.Facebook: growing since investing heavily.
+	Polina--If impressions of specific ads are high we can use it differently in order get more granularity on the data
+3. Google Ads:These are Display Ads - Polina to confirm
+  	 We can use one of the Google Ads types to the model.
+4.Google Maps Clicks/Installs: 
+	Installs: In a Google Map when someone search for a destination, install ads allow users to install app directly from the ad.
+	Clicks:When someone clicks on Ads,Google Ads counts that as a click
+	We can remove clicks instead we can use Install Ads data.
+	We can use Google rating to get insights 
+
+5.Apple Serach Ads: 
+	App Store browser: Customers viewed the Bolt app or tapped to download
+	App Store Search : Finding or searching for Bolt apps and Search happens inside the App stores.
+
+6.Since Spend Share is high for Google and Facebook we can break out the campaign ads to see the data granular segmentation.
+
+7.Campaigns cost:
+	For Activations model, we can only use cost of First ride vars and Polina to confirm whether to use sign up costs.
+
+8. Referrals:
+	Referrals types/Discounts will change based on the number of people who activate.
+	i.e. If too many users activated and paying much for them then scaling down the referals or Discounts price will be increased 
+	to get the more audiences
+
+9. Polina to share the description on campaigns saying which one promotes the discounts and referrals.
+
+10.Invite Cost usages: if someone redeems the offer that counts as a usage.
+	If discounts cost/usages is very small we can club the variables.
+	
+11.Holiday & Extraordinary events: Use the one which explains the model Results.
+
+12.Non-digital campaign besides OOH: is Digital advertisings 
+	OOH: is Banners in the streets 
+
+13. AE to Add Total Column to all the slides and lifecycle data.
+
+14.Lifecycle Data:
+	Activated sent date- The date when communication(message) sent.
+	Unique users: users who receives the messages
+	Total sent:how many messages are sent by bolt to users.
+
+	Actiavted-activated date: Is the date,all the campaigns that user has received before the activated date,
+	Also,if users activated right away they wouldn't receive any communications.
+
+ 
+ I hope the above is useful to you.
+Also, if users activate immediately, they will not receive any communication afterwards.
+
+
+
+7.
+what kind of messages has gone the most
+
+these are the biggest campaigns
+
+campaigns cost which specific cost map towards
+_____________________________________________________________________________
+
+Below is the list for Pending Data:
+
+Key Holidays and Events List 
+Categories ETAs
+External Factors
+Campaigns cost
+Digital: Blog visits -users,Google Maps Clicks,Google Maps Installs
+__________________________________________________________________________________________
+Bolt-6/10/2021
+
+-Polina to share the pending data by EOW.
+-OOH data to be used at the end as the data is not available (Campaign is still running)
+
+Lifecycle :
+	-Not activated - sent dt is users who haven't activated
+	   Activated/Not activated comms per day
+	   sent messages that how many users or groups so far activated
+	-(Activated sent date) + (Not activated sent dt) = Total sent messages 
+	-If we require more information on Lifecycle we can approch Polina
+	-If Message name has campaign name like discounts- then campaign is based on Discounts
+	 If it has referals - then its a referral campaign
+
+Facebook Data:
+It would be better if we input the FB data by Objectives or by different specifics of campaigns 
+
+-Create a summary for Media and Lifecycle data(To get know the granularity of data).
+
+-Modelling period – For activations-consider data till 9th of June
+
+
+9900412179
+
+
+
+___________________________________________________________________________________________
+
+Bolt- 6/18/2021
+
+-KPI - AE will continue to build the model with data until 9th of June.
+-Life cycle data is available till 9th of June and Polina to share the data once it's available.
+
+-OOH- 
+	Q2 OOH Campaign Data - is Elaborated information for the current campaign that is underway and will be tested in the model as a separate campaign for Q2 2021.For the rest we can use OOH impressions. 
+	Brand Video Online Ads FB- video is distributed in different ways and one observation is been distributed to FB ads. The main objective was to increase engagement with the audience.
+
+OOH Spend includes production cost and cost of different placements like posters,video,subway etc. whereas FB data will not carrry the cost of production. 
+
+-OOH tiktok- 
+	These are the ads specifically promoting the OOH which also includes Production and distribution cost 
+
+-By next week AE to give platform access to Bolt.
+
+-Polina to share information about the FB Ads which are part of OOH campaign..
+	She has already provided campaign ID - Right Jimit?  
+
+
+
+095137 46209-Manipal Dom
+
+
+
+
+
+
+_________________________________________________________________________________________________________________________
+OOH includes cost of production of video 
+
+It's the part of FB 
+
+FB includes is distribution cost of video
+
+Production cost of video was spend on the OOH data and but not FB data (will not carry the cost of production)
+
+OOH spend-includes   how much team estimated spend donate actually other placement regarding this campaign(carry the cost of production)
+
+OOH 
+
+home placements
+_______________________________________________________________________________________
+
+
+______________________________________________________________________________________________
+
+Diversity & Inclusion
+
+Different people, different background, various industry experiences & Best Ideas is what AE believes
+
+Actions
+Hire candidates from different genders, educational background and experiences
+
+
+How does AE foster diversity on its teams as it continues to grow?
+Hiring References 
+Skill Matrix (diversified)
+
+
+We foster an environment that is supportive, inclusive and diverse,
+When hiring, we extensively recruit across various skill metrics looking for new and diverse candidates, 
+and we promote internal referrals from employees.
+
+We have team members from all walks of life, which brings in a diversity of opinions and experiences to meaningfully drive our innovation.
+we built a team that encourages creative thinking and represents their customer base.
+
+
+Even more important than diversity, AE builds an inclusive environment to ensure everyone 
+feels comfortable and welcome no matter their background or experiences. AE offers leadership classes 
+and mentorship opportunities to ensure new hires are matched with colleagues who are interested in mentoring and have
+ the training needed to build a successful mentor-mentee relationship.
+
+Make a conscious effort to both recruit talent from a variety of backgrounds 
+(that means stepping away from your go-to recruitment platforms) and targeting diverse 
+candidates on their turf. No matter where you are in your diversity efforts, building an
+ inclusive culture will make everyone more comfortable, connected and engaged at work. 
+
+______________________________________________________________________________________________________________________
+Thanks a lot for the data.
+
+Coverage we know right 100% of the data is populated
+
+36% of the data is available
+
+
+____________________________________________________________________________________________________________________________________
+
+Price
+
+on an avg var change
+
+90% 
+a few days the price change is below 15%
+
+
+______________________________________________________________
+
+
+@jimitshah@analytic-edge.com this is facebook campaign id = 6228396652100
+
+
+So Jimit temp0 is to normalize any outliers in the temperature for a month
+ex - Jan all year have been 40 and 2020 it has gone down to 30
+we cntrol for that drop with temp 0
+
+and temp 1 we provide weights from 0 to 1
+so highest temperature from temp 0 - the temp 1 will be 1 and lowest temp 0 - the temp 0 will be 0
+
+________________________________________________________________________________________
+
+
+
+Super sorry to bother you again but 
+
+
+
+______________________________________________________________________
+
+
+Add Twitter total- if +ve
+
+Save iteration where variable turns +ve
+
+FB n Google will have high contribution n similar contribution
+
+remove Appstore imps
+
+Spend Share Summary vs vol contribution for each vars
+
+start inserting imp vars
+
+---------------------------------------------------------------------------------
+
+You make the workplace a little bit brighter and a whole lot of fun. 
+Having a supportive colleague & great friend i
+They've been out there to help me out with things that I had a hard time understanding
+
+
+1.	A Motivator -Jimit
+2.	A Team Player
+3.	A Game Changer
+4.	Is always there to help someone!
+
+
+
+
+
+
+Smmary
+yearwise n total
+
+Imp spends contribution value n %
+
+
+Based on the total spend share 
+
+
+
+I have created the summary table the way we discussed earlier 
+
+
+Jimit As discussed during our call a little while earlier I have created the summary table for media variables.
+ 
+
+
+My hobbies includes playing sports such as Badminton n skating and i love to read books n learning new languages also love to explore new restaurants.
+ I am passionate about traveling as well
+
+working out in gym is going to be my new hobby now
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+You were right Jimit after adding Promo variables media contribution shifted to promo 
+
+
+
+What do you think about introducing weekend dummy as a base var?
+
+
+Jimit We can introduce weekend dummy as a base variable to our model right?
+
+Jimit
+ Bolt ETA is one of most used car and imp car to be added to our model right?
+
+
+
+So there is no way I can ignore that var
+ It has +ve corr with the KPI and there is no much impact on my R2 n Mape 
+
+
+Questions:
+
+1.Required explanation on below terms 
+	Event campaign cost- (Objective of the campaign)
+	App Store browser: Polina to check on the description-(Jimit we are not using this in the model as we don't have spend)
+	Non-digital campaign besides OOH - Polina to confirm what these are and how important they are 
+
+_________________________________________________________________________________________________________________
+Bolt- 6/29/21
+
+to understand How new users are coming from each sources and like how its been influenced by sources
+
+1.Payback/ROI calculation:
+We can use the multiplier to validate how things are looking
+
+Cost of acquisition(total expense incurred by a business in acquiring a new client or purchasing an asset.)
+ one user and compare it with payback would be propotional to cost directly.
+
+cost for users of activation for specif media =total cost(media spend in total or specific channel)/the number of users activated.
+
+2.Event cost camp partially includes influencers cost
+	part of Marketing
+	done in subways and done through influencers
+	Polina to share the way to separate the influencer cost from event cost
+
+3.Lifecycle Data:
+
+5M straight messages-4.9M has GB in their names.. users used to get msgs before they activates in UK
+Blanks are journey messages (longer campaigns)
+
+
+Total sent is good enough to use in the model
+unique users is how many people on that particular day receive the campaign.. we can consider this as a reach
+
+Unique users is reach
+Total sent is impressions
+
+Polina to share the subgroups(approach to separate the message) for lifecycle data
+
+We can combine the activated and not activated total sent 
+(not activated will receive more msgs as bolt try to activate them)
+
+
+4.Invite cost vs Bonus cost
+
+Invite cost- when someone gets invited to join they get referal code and they use that code to activate.
+sender of cost will goto bonus cost.
+
+users who joins  n activated date
+bonus cost is same as invite cost they give but users don't use it (they don't use the discounts)
+
+
+5.Check with Swati how we can share the project space with polina
+	can two people work at the same time with same credentials
+	Upload the data
+
+
+We have given ID n pw
+
+does not include your brand name or any part of it, not directly connected to keywords.
+______________________________________________________________________________________________________________
+
+
+Bolt Notes - 7/1/2021
+
+Description on few terms:
+
+-Brand search - people who searches for Bolt
+-Non Brand- Other keywords that don't reference the brand name.
+	i.e.the visitors may not already know about brand and are searching indirectly for bolt service.
+
+-Lifecycle:
+	The Campaigns which includes journey Id can be clubbed with 'Welcome activation' campaign
+	Polina to share the description on 'blanks'(message with no names) 
+	user campaign is discount campaign that is directly connected to activations 
+	pushing rides-part of scooter communications.
+	we can combine the small campaigns like ( activation and SMS verification)
+
+-Invite & Bonus cost: are two sides of referals and Polina to confirm on whether to add bonus and invite cost to test them together in the model.
+
+-OOH & Event campaign spends : Polina to get back on how to separate the two costs
+
+-Jimit to set up a call with Polina and team on the methodologies which are used in modeling 
+ 
+Next Steps:
+
+Yesterday I had too many appointments Jimit
+
+with my dentist,
+dad's routine checkup
+vaccination 
+
+I had too parcel few things to sister via FedEx
+
+
+
+
+Lifecycle
+Bonus cost+ invite
+multiplicative
+weather
+
+how does lifec
+integrating the models
+
+69.76091
+24.4163185
+______________________________
+
+OOH is just a distribution cost
+
+Invite+bonus cost can be combined under referrals 
+
+Influencer 
+
+event codes different ways of showing add in social media.
+
+weekend n weekdays dummies
+
+sign ups: might have bought up by FB Google or other media/promo camp
+
+only pay when people activate the ride
+
+
+
+acquisition to influencers 
+influencer marketing acquisitions-to promote a variety of messages across a huge range of online and mobile audiences
+
+Mean centered:applicable if you have multiple dimentions. we take mean centered to control size of region..scaring of variables(pooled n mean centred does the same thing)
+
+decay 0.2: 20% of the impact is carry forward.. 80% day of we feel the impact the day itself.
+exponential: how long my add should lasts.
+gamma: indicates build time, my add lasts for 7 days.. 3rd day highest hence DOF is 3 
+
+imp- Cost per impressions doesn't get reflected if we use only spend.those might varying.increase or decrease impressions
+end customer point will be looking at impressions react accordingly
+to capture the customer behavior
+prefered metric is imp
+
+by measuring the CAC- depending on specific campaigns how much its costed us?whether its costed high or low? 
+
+spend might mars the cost per imp
+_______________________________________________________________________________________________________
+
+List of Questions from Polina 
+
+1.How new users are coming from each sources and like how it has been influenced by the sources n also
+ how they can spend money on specific tactic based on our model results?
+	For eg:
+	what happens if they increase FB's budget by 1000 Euro's ?
+	or 
+	If they allocate budget for next month n what would be the best investement possible?
+
+
+2.If OOH add is responsible for 1000 conversions/activations and how confidant are we in the given confidence interval?
+whether 1000 activations happend actually because of of OOH ads or the random noice that we captured via model?
+
+
+3.Model Check list(list of validations that we do it in model)
+
+4.How do we account for the fact that we have layerd acquisition?
+i.e how Media & Promo variables work together? or how systems interact after user has already signed up, this might have happened because of FB ads? But bolt also addtionally spent on
+ sign ups,Invite/bonus , lifecycle or what happend after the signup
+Hoe exactly AE is going to address this?
+
+
+
+
+the users might have come from FB anyways they sighed up n just the fact that bolt addtionally paid invite/bonus
+
+
+
+
+
+ What happens if they do marketing?
+how systems interact what is the actual output which one of them
+and the best solution or how can they optimize the solution
+if they certain budget for next months n what would be the best investement possible?
+
+
+
+
+Eg : effectiveness For FB where they can Spend more money over the weekends or cannibalize over the weekends/  what happens if we increase 1000 Euro's 
+
+2.OOH add is responsible for 1000 conversions/activations and how confidant we are in this confidence interval
+1000 activations actually coz of OOH or the random noice that we captured via model
+
+
+3.Model Check list(list of validations that we do it in model)
+
+Proof of concept
+
+
+
+4. how do we account for fact that we have layerd acquisition.. eg: fo invite cost cost are connected  to no of activations directly.. 
+the users might have come from FB anyways they sighed up n just the fact that bolt addtionally paid invite/bonus
+
+after user has already signed up, thius might have happened coz of FB ads we also addtionally spent on sign ups, 
+lifecycle or what happensafter happend the signup
+Hoe exactly we address?
+
+holistic picture
+what happens if we use FB ads Google ads
+
+work together with bonus 
+
+5. What happens if do marketing?
+how systems interact what is the actual output which one of them
+and the best solution or how can they optimize the solution
+if they certain budget for next months n what would be the best investement possible?
+
+
+6.Bolt intention is when you see FB ads and not download or not activate.
+ 	sign ups
+
+
+base vars influences the sighn UPS n activations but not the direct result of people activating
+
+For OOH expense she said it only includes distribution cost but she would like to reconfirm with the team and get back to us.
+much better understanding on measures impressions more accurately
+
+
+
+
+
+
+
+
+
+
+
+
+From last call I remember she wants to understand How new users are coming from each sources and like how it has been influenced by the sources n also from results how they can spend money on specific tactic etc
+constraints of spends
+
+
+
+From last call I remember she just wants to understand How new users are coming from each
+ sources and like how it has been influenced by the sources n also from results how they can spend money on specific tactic etc
+
+
+
+
+
+______________________________________________________________________________________
+7/9/2021
+
+1.Model check validation document:
+2.
+
+Volume=Intercept⋅e^(β* Precipitation )⋅e^(β* Media )⋅e^(β* Promo)⋅...
+Volume=Intercept+β* Precipitation+β* Media+β* Promo+β_var....
+
+
+mutually exclusive and or multicolliniarity
+one variable goes to base equation
+
+extra getting from other variables
+
+3 dummies ca be used 4th one captured in intercept
+
+
+
+MMx is not the right approach for current business Question
+
+
+He just told on Friday  we will propose two to 3 approaches for current business Qns 
+
+
+every Tuesday power cut in your place is that so?
+
+I am kinda scared if talk will it ll make sense or 
+ 
+
+FB ooh Google n referal breaks
+
+
+
+
+
+
+
+
+cost is already over subsided they shouldn't give all these discounts for people to activate ride or app 
+many people would have activated anyway after sometime
+
+it's quite shocking in itself
+thank you Thank you.for the recognition... i am kinda exr=tremely honored... this just made my day
+
+Definitely I thank everyone one whoever mentored me and found worthy to receive this recognition 
+
+Definitely next year or next quarter I look forward to receive such kind of awards more in number
+
+i.	Transformation parameters are determined by running multiple iterations and comparing model fits for each
+
+
+
+
+
+Advantages of bucketizition:
+Creating an Artificial samples from the data and re- run the model and how prediction fits.
+
+How did we come up with bucketization- based on Cost per user ranges?
+it has to be data driven or KPI driven
+
+
+
+How many coupons 
+
+
+at this point am not that quick to give solution or  I may not be that smart to or capable to think right or wrong infront of you all
+thatswhy I keep quite 
+
+but i am learning from you all
+
+
+__________________________________________________________________________________________________________
+
+
+Using the Redeemed no. of users by offer value at a daily level to validate the results.(or breaks on any granularity preferably in terms of coupon value)
+
+If get
+
+Action Points-If variable is highly correlated
+
+1.Then we would break the variables into logical groups(By year or by values) to reduce the multicolliniarity with the KPI.
+Breaking the variables will understand us is the which of them are driving more activations 
+2.Transforming the variables 
+Breaking down the variables to understand which of them are driving more activations 
+
+
+More Drive of activations?
+
+
+But Action points should be regarding - If we get the coupon redemption data how we are gonna use it right?
+
+
+
+Using the Redeemed no. of users by offer value at a daily level to validate the results.
+
+
+Coupon Redemption
+
+It's the same question for even n sign up cost
+
+that we are asking for user level data for coupon redemption 
+
+% new users who might have used promo code
+
+
+% several
+
+After hearing that you're going on a vacation even I feel like taking leave now
+
+
+After hearing that you are going on vacation, I feel like taking leave now
+
+Good that you're taking break 
+
+
+It's the same requirement right for even n sign up cost that we are asking for user level data for coupon redemption
+
+Estimated timeline based when  exactly we can deliver after the point we get data
+
+
+Ya its better we mention both the requests and expect atleast one of them
+
+
+
+_________________________________________________________________________________________________________________________
+
+
+Getting the iteration where media or promo contribution looks right?
+
+Hey Jimit
+
+As you suggested after adding referal variables we can check the
+
+Hey Jimit 
+can I add promo and media variables together in model and then fix the priors based on its variation?
+
+
+We can adjust the coeff to get the approximate contribution 
+
+Leave that we should ask her the confirmation regarding the Invite cost usages right
+
+Bonus is already a user referal 
+
+
+
+
+
+
+  (tt_60,tt_22,tt_71,tt_58,tt_80,tt_82,tt_C13,tt_95,tt_I18,tt_98,tt_100,tt_97,tt_101,tt_102,tt_93,tt_88,tt_50,tt_62,tt_61,tt_69,tt_72,tt_33,tt_i10,tt_77,tt_i12)
+
+
+1.Base 21st - Base model
+2.B+FB Ads21st - Base+FB Ads
+3.B+FBAds+Other 21st - B+Fb Ads+ Other Media variables(like google,snap,ooh )
+4.B+Fb+Ref 21st - B+FB Ads+Referals( Major one's 10,12,8,14gbp n 100pct)
+5.FB+OM+Ref 21st -FB+Other Media+Referral 
+
+6.B+M+R+L wo Priors - All media variables without any priors 
+7.Model WIP1 w priors - B+media+referral+LC with priors
+8.Model3 w Synergy var - 
+_____________________________________________________________________________________________________________________________________
+
+Enjoy your vacation!
+ Have a happyyy trip Jimit n hope you've a great time!
+catch you later
+
+I am thinking to call you during your vacation and ask about Bolt modelling next steps and regarding synergies etc
+
+
+OOH granuar data
+
+New data to be received:
+
+Signup / Event cost by coupon values and it's usages 
+OOH Q2 data in more  granular level
+
+
+after adding additional data 
+
+very certain at the moment blog contribution will change after adding additional data?
+How accurate is confidence intervals which we have given would make a lot of sense.
+how we gonna look at the data?
+
+what may be the ranges
+
+model etimates the results based on trend
+
+Hey Jimit
+
+It can be this right now they are spending a lot coz Bolt is growing 
+
+but it could be this reason right that bolt is a growing company & to gain new customers they are spending a lot and moving forward it may gradully reduce.
+
+what is the estimate or bound that 
+
+while modelling
+
+Also wanted to let you know that we are awaiting the following data for Sign up and Event campaign costs:
+
+•	Bonuses by offer value (e.g.: 8gb off, 10gbp) similar to referral cost (or any other granularity available)
+•	Redeemed no. of users by offer value at a daily level (No of users who used offer per day)
+
+
+
+
+
+Hey Jimit
+I will draft an email and keep here.. tomorrow we can send her the M.oM once we have answers for confidence interval?
+
+Thank you for taking out time to go through the model summary in detail.
+
+Highlighting the key discussion points and pending data below:
+
+How accurate is the confidence interval(Providing range of values) after adding additional data to the existing one?
+
+
+
+
+Signup / Event Costs - Pending
+	Bonuses by offer value (e.g.: 8gb off, 10gbp) similar to referral cost (or any other granularity available)
+	Redeemed no. of users by offer value at a daily level (No of users who used offer per day)
+
+Also,As you mentioned earlier in previous meeting, if OOH Q2 data is available with more granularity will also help to move forward.
+
+Please feel free to add if we have missed any points here.
+Please add in case i am missing any point.
+
+
+
+•	“can we mention why we use impressions and how we plan to get to spend?” – 
+While creating MMM models we always use metrics that are a touch point to the consumer/customer. For eg: a consumer watches a TV advertisement so he is consuming the GRPS aired or a consumer has seen a digital ad on YouTube so he consumes YouTube impressions. This is an accurate unit of measurement for the consumer journey. Costs can be incurred before or after the consumer watches the ads but GRPs/Impressions capture the actual point of interaction/view. Spends will come into picture while calculating CAC , Payback or ROI. The simulation/optimization/forecasting will be done using spends only, we will use cost per execution to generate the corresponding impressions
+•	“average across iterations?” – yes, taking the average coefficients across the iterations for the respective media variable
+
+
+
+Hey Jimit I will not be available for next half an hour or so..
+I will share the data with Steve after sometime! Let me know or ping me here if anythingggg else needs to be done before you logging off
+okay?
+
+Have a happyyy happy trip Jimittt n hope you've a great time!
+Also, I will try my best not to bother or call you during your vacation! hahah
+
+Chalo catch you later
+
+
+Hi Stephen,
+
+Please find attached the Coupons data as requested. Refer the "Referral" tab for daily level data. I have put my notes on measures and summary there for your refernce.
+
+Also wanted to let you know that we have data available only for Referral coupons and we are awaiting for Sign up 
+and Event campaign costs(by offer value/redeemed no. of users)
+
+Let me know if you are looking for some more information.
+
+
+
+Please find attached the Deep dive template as requested. Refer the "Availability Matrix" tab to understand what is available for Deep dive, i have put my comments there.
+
+
+
+
+you are a prodigy so surely you can complete it by the end of this week or month only if you have some time to spend on it!
+
+
+Hi, Thank you for your email. I'm out of office on a planned vacation from 2nd August 2021 till 8th August 2021. During this period I will have limited access to my email. If my assistance is required on an urgent basis, please contact me on at 63
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'\SynologyDrive\Coco-Cola MMM\India\Phase 4\Coke\Raw Files\[Data from CCI_Monthly Media Jan-Oct''19  20 (mktwise) (1).xlsx]Sprite spends'!$A$4:$H$20
+
+
+
+
+
+
+
+instead of log why can't we use lag it says delay in response that can influence users to activate the app right?
+Any glich here using this transformation?
+
+
+
+
+
+
+
+
+
+Internal
+
+I used log -fit is not good and contribution difference.highlighting the differnce
+create  
+using directly
+these media variables behaving differently
+event cost is taking too much it will not make sense coz cost half of the media cost and predicting so much
+and model fit
+
+____________________________________________________________________________________
+
+
+Hi Polina,
+
+Thanks for sharing the requested data.
+
+We are on it and and have some queries related to the latest data that we have received yesterday.
+
+1.Daily event codes:
+We have processed this data but there is a slight difference in cost at the aggregated level.
+
+
+
+Attaching the Excel where we have coupon level data..If required will show you the process that how did we arrive at the final spend.
+
+2.Daily targeted campaigns:
+Here in this data`trend looks similar with the 
+
+Event camp cost this is the difference
+
+Sign up cost Earlier
+
+
+
+OOH--
+
+
+pod cast is extra 
+
+can you brief of OOH data
+
+it did not match it with the 
+
+
+Also, will cancel the daily meetings scheduled for this week and will share a fresh calendar invites based on our progress on above touch points.
+
+
+
+Hi Polina,
+
+Thanks for sharing the requested data. We are working on it and have some queries related to the latest data that we have received yesterday .
+
+1.	Daily event codes:
+We have processed this data but there is a slight difference in cost at the aggregated level.
+Old Event cost	New Event Cost	Difference
+983,015	977,290	-5,725
+ 	
+Below table shows the coupon level Cost:
+1gbp	5gbp	7gbp	8gbp	10gbp	12gbp	15gbp	20gbp	30gbp
+0	22,755	104,398	115,944	653,980	28,368	51,825	20	0
+Please note we are validating the numbers and wanted to run them past you in case something looks amiss in above coupons values .Let us know if you want me to take you through the final spend data calculation.
+
+2.	 Daily targeted campaigns:
+Here we are assuming daily targeted campaigns are sign up costs and with this data, trend looks similar to that of the sign-up cost. But there is a huge gap in total cost numbers.
+Old cost	New Cost	Difference
+14,740,751	5,853,00	-8,887,751
+  
+Please do confirm these numbers and let us know your thoughts. we would also require you to brief us about the latest OOH Q2 data received.
+Based on our progress we can discuss above touch points in today’s scheduled meeting. 
+
+Thanks,
+Kavya 
+
+
+
+									
+									
+
+
+
+
+
+Notes:08/05/21
+
+Next steps:
+
+AE :
+Event cost:
+AE to break down the event data based on major campaigns(eg.Influencers,OOh Campaign etc) or by codes.
+
+Target Campaigns:
+AE to discuss internally and see what is available and how to use this data to incorporate this data into the model.
+
+OOH Q2 Data:
+AE to include the podcast data and sum of plays in the model separately.
+
+AE to share the final version of model with Polina after including new data in the model
+
+
+Bolt:
+
+Polina to check/confirm the target campaign data and get back to AE by tomorrow
+
+handling data:
+_____________________________________
+Modelling approch
+Results
+___________________________________
+
+Variable treatment
+event by camp
+sign up split by year
+
+Put chart of base vs incremental
+media
+what is CAC
+contribution
+
+Output
+
+Due to H1 due to
+
+a.	External Factors: Precipitation & Temperature
+b.	Key Holidays: 
+c.	Categories ETA: Tried to add only those variables that have a significant impact in the model.
+d.	Weekend Dummy: Since our activation model has an on(weekend) and off trend throughout the modelling period, year wise weekend dummies are introduced.
+incremental sales is split into sales from each input to calculate contribution to total sales.
+
+Observed direct effect of Covid-19 on KPI due to # of visitors to workplaces dropped during lockdown period
+
+We have tested each media variables by considering spend share of media variables to identify the significant ones to begin with
+For each media, multiple iterations are run and tracked how the metrics below are varyin
+
+
+
+
+
+tt_60,tt_22,tt_71,tt_58,tt_80,tt_82,tt_C13,tt_95,tt_I18,tt_98,tt_100,tt_97,tt_101,tt_102,tt_93,tt_88,tt_106,tt_i20,tt_103,tt_50,tt_62,tt_61,tt_69,tt_72,tt_33,tt_74,tt_77,tt_89)
+
+Please dont share Sekar's version of the document with polina..give some time waiting for nrc to approve 
+
+
+
+At the end we are showing the forecasted results.
+
+Done outside the platform
+proxy applied outside the platform
+
+Hey Jimit I guess proxy's can be done in planning module 
+I remeber NRC saying this n  we can play with coefficients for new variables in this module
+but we will have to confirm this with Vijay or tech team 
+
+
+
+
+There is high chance that polina will surely ask this Qn
+
+maybe what you can write is , variables that have high execution in hold out period and are not part of
+ the model can be given an avg coefficient or coefficient of most recent exectution
+
+
+The calculation of Hold out MAPE is done outside the platform.
+
+Step 1: Data & Model Export from the Platform 
+Step 2: Data Export file -> We calculate Predicted values & MAPE for each row {|Actual-Predicted|/|Actual|*100}
+Step 3: The forecasts for the holdout periods (p periods) are calculated.
+	Assumptions for proxy coefficients:
+	1. The variables which are executed during hold out period and are not part of the model can be given an average coefficient
+	(E.g. If we are considering latest 6 months of data as holdout sample and we have Var1, Var2 & Var3 of similar kind where Var3 
+	is the part of hold out period,we apply average of (Var1 & Var2) coefficient to Var3)
+	2. Or we can apply coefficient of most recent model without hold outs.
+	3. After the parameters are optimized, the fit and the forecast are then calculated to test our model accuracy.
+
+Hanji boliye
+
+gift kit contains T-shirt, diary, pen ,mask, desk lamp and celebrations gift boxes
+
+
+
+
+
+we are using event costs at campaign level right? Going forward are we gonna use same set of campaigns?
+
+
+Avg ETA - having an outlier in 2019
+
+To summarize Bolt & Avg -ETA n 
+
+
+
+Not used most frequent category 
+
+Why we have included
+whats
+
+Notes: 08/26/21
+
+1.Polina is not clear about the below model Inputs:
+ a.ETA category which we have it in our model(XL_ETA)- how it is connected to getting more users? why we have used it in the model?
+ b.Life cycle data- why we have included only two categeries in our model?
+
+
+2.AE to prepare classic Insights Presentation- 
+ a. Include one or two slides on methodology
+ b. Create a contribution summary for latest quarter(AE to discuss internally)
+ c. AE to eloberate more on model Results(CAC, Contribution value etc),Recommendations/Conclusion
+    (FMR: why CAC for Goole serach non-brand twice the brand search etc)
+ d. Response curves
+ e. Media(Digital & OOH) budget optimization scenarios
+    (FMR: If we have budget for instance- for sept or Oct 21,AE to suggest what could be the optimum for spending of money for these media channels)
+
+3.Hold out Results to be shared with Polina once we have the complete data.
+  Pending Data:
+   * Lifecycle Data
+   * Media
+     a.Twitter Data
+     b.Apple Search Non Brand Ads Data
+
+4. AE to discuss internally on how to incoperate quarterly/monthly level data into the Simulation/optimization scnarios
+
+5.AE to share timelines for the project/Deck
+
+
+
+
+
+3. PolBolt have the control on How many people enroll in the campaigns, how many have access to it and how much Bolt offer them etc 
+
+It's one of the major festival for udupi and Mlore people
+
+Here they celebrate it in a different way and we celebrate it for two days..
+
+there is one carstreet they will deck up that street for the celebrations
+
+there wiill be colorfull procession ,mosaru kudike(i.e breaking  the mud pots filled with curd,milk etc)
+the famous onw is the tiger dance and some people wear other mythological
+and religious costumes they come to everyon'e house to collect money..
+
+ performed by male troops its kind of honour to lord krishna
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data for Full Modelling period
+
+Data used for RCs
+
+
+I will not share the sumamary file coz contribution is calculated based on dummy activations right
+
+current coeff will hold true for next 2 months
+
+got new independant
+
+KPI 
+
+
+Actuals sales
+
+
+
+
+
+
+
+
+
+
+
+Hi Team,
+
+Setting up this connect to discuss a couple of questions/updates on Bolt results
+
+Agenda -
+ 
+>Will share with you the updates.
+>Discussion over the Post modelling results.
+>First cut Deck Review
+
+
+
+
+
+
+
+
+
+
+Attaching a working sheet as well as conceptual documentation for response curves.
+
+Please go through it once before the session and raise questions in case you have any.
+
+Also, if there are any questions from previous sessions, feel free to raise it during the training.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi Polina,
+
+Hope you're doing well
+
+This email is regarding the signups data we received earlier on Thursday..
+
+From the data provided, we are referring to the tab called “Daily targeted campaigns”.On further checking we are not sure if the data is suitable for analysis as we are seeing a huge difference in Costs from the current Sign-up cost( which is in “Campaigns cost” tab and the one we are using it in our model). Below table provides you the aggregated data & would like to confirm with you if there is anything we are missing in the data currently provided to match the existing one.
+
+ 
+
+
+Required Data:
+ To capture the better variation and to get unbiased read from the model we are expecting the data that is similar to:
+•	Referral cost(cost & usages by offer value)- i.e., format which we have it in “ day to day referrals” tab – at daily level
+•	Or By campaigns/Codes or any granularity.
+
+Please let us know if you need any details or clarifications on any of the points above.
+
+Let's discuss the same internally in our meeting today.
+
+Thanks,
+Kavya
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+can We have different dummies for 2019 and 2020 right?
+
+
+
+
+
+
+
+
+
+
+'[MMM Analytics Edge - Bolt - data collection 09-09-21.xlsx]Signups working sheet'!$A$2:$N$1418
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Holiday weekends
+
+to capture the spikes better we would be needing your
+
+probably understand consumer behaviour beeter their 
+
+interms of seasonality publicc
+
+whe
+
+Yes Steve you could give us the information  
+
+
+weekend effect and holiday and covis and non covid this could help us to explain magnitude of spikes and we can capture based on your information
+
+if public holiday or summer season we can then add that impact to weekend effect 
+
+It would be very helpful if you could give us the more information on characterizing the weekends(like summuer/reguler etc)
+
+
+
+ 
+consumer behaviour on covid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'D:\SynologyDrive\Bolt MMM\Bolt-New Data\Raw\New Data\[Bolt-Event & Sighup new data.xlsx]Sorted Data'!$A$1:$V$7375
+
+
+
+
+
+
+Hey Jimit,
+
+I have split the weekends,sign ups and OOH variable saparetly for the forecast period okay
+Its actually predicting better than what we had seen earlier.Just one issue is that 'OOH new' is not picking up the right direction of the coefficient also we cannot force fix it as media vars are fixed to 5% SD. If we do so, overall model err will increase to 23%.
+However with this, forecast period accuarcy is ~12%
+
+if we let this one variable free(OOH plays 2021), Overall model err will drop to 16% n the R2 will be ~92%
+Forecast period mape ~9%
+atleast its taking +ve coeff but the Contribution ofcourse it will go off :(
+
+Anyway we can connect once you're avaiable?
+
+
+
+
+
+
+
+please let me know if you prefer any other time
+
+
+
+1.coupons values
+
+forecast accuracy is 
+
+2. coupon value promo w priors
+
+3.coupon cost forecast accuarcy
+
+Our thoughts:
+In the new time period if we use saparate variable 
+
+Jimit You wanted to connect with me right? before sharing it with Santhosh?
+
+
+
+
+
+
+
+Same here.. that'swhy I wanted to download data export file n check its transformed data.But Its not working for me
+
+One more thing Jimit in gamma we already specifying the # of days or weeks it should
+
+
+
+
+
+
+
+
+
+
+
+
+1.If we increase the Mobility transit by 3x times Model fit will go for a toss Santhosh
+Here is the ss of model Fit and its statistics
+
+and transit DT will still remain ~300%. 
+
+
+
+
+
+
+Platform is bit slow as Nandini and Ganapati are working the issues I am facing currently.
+
+
+Will respond to your mail after sometime as platform under repair 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yes in the beggining of this project
+We could have checked this variable Just to see if it helps ud to capture the peaks 
+at the end of each month
+
+
+
+
+
+
+
+
+
+The Signups Cost here is  taken from 'Daily targeted campaigns' tab
+
+
+
+ I'm very jealous of your Meghalaya trip Jimit!
+ I thought I will dance watch netflix sleep eat and repeat in your absence but you're assigning so much work n going very bad ah!
+
+
+
+Hi, Thank you for your email. I'm out of office today on health reasons. However, please drop an email and i will respond as early as possible! If my assistance is required on an urgent basis, please contact me on at 6366017739. Thank & Regards,
+
+
+
+
+
+if Kasia thinks our mobility is not the right data to be included in our model then why can't she give us the correct data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi Sebastien Hi Stephen,
+
+Model update
+As discussed during our call earlier, the following are the adjustments made in our model:
+1.	As Kasia mentioned, google mobility being zero before 2020 may not be the right variable to use in our model and hence we explored a few sites and got ‘Total number of App downloads in UK’ for Uber+ Bolt+ Free Now .We used this as a category trend in our model and also, all three of them together accounts for more than 80% of the market share.
+o	Site Name: Reflection
+o	Below chart shows its trend with the KPI
+ 
+
+
+2.	We replaced mobility transit data with our new variable called ‘Category’ and forecasted the KPI
+3.	With this we have a forecast accuracy of ~18% without splitting any variables during this new time period.
+
+Please go through the summary sheet where we have the detailed results. And let us know if you have any questions.
+
+
+M.o.M for meeting on 10.15.2021 Draft version
+
+Please find below meeting notes from yesterday’s call : 
+
+Follow ups for Polina:
+•	Polina to share the input data post 23rd Aug 2021 with AE. This is just to check the model accuracy.
+•	Polina to check the signups cost/usages data as the totals don’t match with the one shared earlier.
+Sign up cost
+Campaigns cost tab	Daily targeted campaigns tab	%Change
+19,201,145	8,691,108	-54.7%
+
+•	Polina to get confirmation on availability of Coupon Circulation/availability data.
+•	Required data for Promotion:
+o	Coupon circulation data by offer values or any granularity at daily level.
+o	This data is required for Signups , Referral and Event 
+Coupon Circulation/availability data is ‘ Number of coupons/discounts sent to the customers ’.
+
+Follow ups for AE:
+•	Once AE has the required input data, run the model for a new time period and forecast the KPI to check its holdout accuracy.
+•	AE to share the latest summary sheet with Polina(Attached).
+•	FB/AE to explore and check if any total taxi usages/rides/Covid drivers’ data available (updated in the summary sheet)
+•	AE to share the list of variables that required to forecast the KPI(Attached).
+
+
+Leave updates: 
+Jimit is on leave from 15th to 24th of Oct 
+Kavya: 25th & 26th Oct
+
+
+Sebastien/Stephen, just wanted to have your review before sharing these things with Polina and please feel free to make changes in above meeting points as you deem right.
+
+Thanks,
+Kavya
+
+
+
+Hi Hi Polina,
+
+Thanks for sharing the data.
+
+Jimit will be ooo till 25th Oct.Could you please provide us access to the link/file you shared earlier? So that we can discuss internally and get back to you on the same.
+
+Also, Attaching the list of input variables that we used in our current model for hold-out validation purpose.
+
+Please let me know incase of any questions on the attached file.
+
+
+data which polina had shared is the daily level data.
+But if we select data only for ID 25 then we will loose so many data points specially for the recent time period.
+
+It would be great If you could update the same as earliest as possible so we can plan to deliver it today.
+
+
+
+
+Hi Polina,
+
+Thanks, for sharing the data with us.
+
+1.	Please find the below approach we followed to process the coupon data received earlier today (Bolt coupon template 18.10.21.xlsx).
+•	We have taken ‘Created ’  as the circulation date.
+•	‘Count of Enrolment’ as the # of circulations that sent to the customers.
+•	The correlation of Enrolment with the KPI is ~78% and with the sign ups cost is ~83%.
+•	Similar to before, we have considered ’ Max value ‘as the coupon offer values (extracted from the bonus data column)
+•	Created the coupon buckets(like 5gbp,6gbp etc) and based on the share of ‘enrolment’ ,we used the major coupon offer values and everything else is clubbed under ‘other buckets’
+•	These are the few steps we followed to use the signups coupon data in our model.
+
+2.	 could you please confirm whether we are going to receive the similar data for referrals and event campaigns? If so, when can we expect the data to be received?
+
+3.	We would also require you to confirm the signups cost data as the totals don’t match with the one shared earlier.
+Sign up cost
+Campaigns cost tab	Daily targeted campaigns tab	%Change
+19,201,145	8,691,108	-54.7%
+	  		            	    Data considered from 11th Jun 2019 to 23rd Aug 2021
+
+4.	As requested, attaching herewith the sheet that includes list of input variables used in our current model.
+
+Please let me know if you have any questions on the attached file.
+
+
+Thanks,
+Kavya
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi Jimit,
+
+Hope you’re having a wonderful vacation with your family 😊
+
+I am here to inform/update you proactively regarding the recent progress in the Bolt project.
+
+1.	Covid Data: As you would know with reference to our previous email or conversation with Sebastien/Polina we will not be using ‘ Total taxi app downloads‘ in our model as it is more appropriate to use Covid related data than this category variable. So, now on we will be using Total Mobility/Transit/Covid cases data(whichever best suits) in our activations model.
+2.	Circulations Data: Polina already shared the Signups circulation template with us, but she is still on validating the numbers and probably she will get back to us by Monday.
+•	We requested for Circulations, cost & coupon usages data for all three types of Promotion variables(Signups, Referrals & Event) and these info by offer values.
+•	If not by Monday, we will proceed using the current available data in our model.
+3.	Second KPI: Based on our last call with Polina, she suggested “Registered users” would be our second KPI and we will be modelling this with our existing media data (For further info on this please reach out to Santhosh)
+
+Model Update:
+
+So Jimit, with the current available data I have run the model and forecasted the KPI. Also, Attaching the supporting files which give complete information about the Results.
+
+
+Thanks,
+Kavya
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+

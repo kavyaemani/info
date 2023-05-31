@@ -1,0 +1,1526 @@
+internal event aug sept - incr
+new content oct - incr
+new content aug
+new content internal event - incr
+ 
+I am writing to inform you that I have resumed work today 21st Feb 2022.
+ as you are well aware my mother just started recuperating from her illness
+
+I apologize for any inconvenience that occurred as a result of my absence.Thanks again for your patience
+
+She's doing better Jimit.. Shifting process is going on
+
+I can still help you Jimit.. You just got to guide me on what I should do
+
+
+i can still help you jimit.. all you have to do is guide me about what i should do
+I am feeling better today
+
+ I can work on any other projects apart from 1MT 
+as i am taking time to adjust to work during this time
+
+But next week I can help you..
+
+
+
+
+
+
+
+
+Hi Vandana,
+ 
+Please find attached the Data Tracker updated separately by brand along with timelines for Sprite/Coca-Cola/Thums-up.
+ 
+Following are the key highlights from the Data Tracker - 
+ 
+Sprite - 
+> We have received & reviewed internally all necessary data required for the sprite model
+> As highlighted earlier, TV spending data missing and hence ROI and Profit curve can't be delivered
+ 
+Thums Up  -
+> All the data received and reviewed
+> Similar to Sprite, Here also we haven't received TV spending data
+ 
+Maaza - 
+> Nielsen SD/FMCG Panel data received & reviewed. Data looks good and being processed
+> Still Expecting Media, Consumer Activation, Consumer Promotion, ONS data to receive
+ 
+Coca-cola - 
+> Media /Assets data received yesterday. Data looks okay
+> Missing Consumer Activation & Consumer Promotion data
+> TV Spending available at Total National level by month, however combined spending available for HR and PU 
+ 
+Let's discuss the timelines in the data review meeting tomorrow.
+________________________________________________________________________________
+
+
+We have updated the attached data tracker to reflect the current status of data availability.
+ 
+The following are the key buckets of data that we still await. We have divided these into "Required" and "Like to Have" data.
+ 
+Required:
+ 
+1. Shipments - We require monthly shipments from Jan 2015 to Dec 2017 and Jan 2020 to July 2020.
+2. TV Advertising - Net Spends (2015 to current)
+3. TV Advertising - ONS 
+4. Sampling - Net Spend, Volume, Contacts by SKU?Campaign
+5. Financials - GP/UC data at brand-SKU and state-level - This does not stop us from beginning the modelling but we will need it post-modelling for RoI calculations etc.
+6. Temperature and Precipitation - Latest state-wise data with actuals until July 2020 and projections for YTG.
+7. Economy (CPI) - 2015 to current
+8. Competitor Trade and Media (Monthly Spend and GRPs) - 2015 to current. This is a critical requirement to calculate Share of Voice
+9. Nielsen data - We need Nielsen data to be re-pulled for Andhra Pradesh and Telangana (aggregated) and Bihar and Jharkhand (aggregated)
+ 
+Like to Have:
+ 
+1. Coolers and Coolers Financial data
+2. Digital Media - Owned/Earned Media
+3. Non TV Advertising - Impressions/TRPs for Print, OOH, Radio
+4. Consumer Promotions - Events and Act_ivations (# of consumers) and CP Net Spend
+5. Trade Activation Spends by Event Types
+6. Economy - Monthly State-wise Tourism data from 2015
+ 
+We will not be considering BGS metrics for this phase of Modelling as the data is Urban-focused.
+ 
+We will share the updated timelines in the next couple of hours.
+ 
+Thanks.
+________________________________________________________________________________________________________________________________
+Kindly go through it and give me a sign off so that we could supply OLS output as input in the Forecasting process.
+
+Sure. We will prioritise this over remaining models once we receive the data. Just wanted to know that we would back calculate Nielsen total category for Jan-Mar 2020 using KO shipments data?
+
+For Coronavirus impact assessment - we will be in a better position to do this once we particularly look at Q1 2020 data to see which states have had the highest impact/sensitivity.
+
+Do let me know if you have any additional thoughts or tasks that are to be done with respect to this.
+___________________________________________________________________________________________
+
+Sure Santosh. I will check with Kavya as she has done the dynamic coeff part and update you on the same.
+Sure. Alligned with that.
+
+aligned; I will do the needful
+will reach out to you in case of any query while processing.
+
+I will do it. Also, if required I will give a call (Offline) to Ashmeet to check the next steps.
+
+Sure. We will consolidate the data and share it across. 
+
+
+Let me know if would like to have it at an alternate time basis your availability. 
+If there is a conflict, please do suggest an alternate time to connect.
+
+
+
+If the competitor's trend is different from the beggining
+
+
+
+I wanted to inform you that next tuesday moslty afternoon I may not be able to work(for few hours) as mom is getting discharged on that day..
+
+Hope that's okay with you..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jimit
+
+
+
+
+
+
+Based on our discussuon on wednesday I tried to increase the contribution little higher for Apple search n it worked..
+ & for Google it seemed very difficult as my fit is getting worse.. to some extent I tried to reduce June-July 1.0 contribution as its ROI was standing out..
+I guess I can hide this contribution since its spend being lower and report only the Google UAC 2.5..to sort of align on the story
+
+Since we are connecting with rahul on Monday Today probably I will start working on RCs Ashwin..
+
+Hi Jimit
+
+
+I usually do not post much but I dont want Himachal beauty to be unshared with anyone haha
+
+
+
+
+
+This week I have planned to share the recordings to hollis; for both gume & paergames
+
+intro Video recordings are there right does Amit has to give access to the client?
+
+
+I have shared the topline decks with Matoba for sales and rentals.
+
+I am targetting the third one to review with you by this week 
+I'm targeting the third one complete and to review with you by this week Friday
+Just focusing more on gaming projects this week;
+
+
+
+Okay
+
+
+
+
+Hey Jimit,
+
+I checked the holdout(dec-13 days) for both the models; Since both the models have dummies during holdout, current holdout seems very high
+
+
+Efficiency
+
+Jimit holidays which are highlighted in red those are the major ones where capsule sales has been impacted much in 2020 and 2021
+
+
+
+
+
+
+yest they shifted her to ward
+
+She is feeling sort of betterish today.. it will take time for her to recover. thanks Ashwin
+Yest & day before yest  I was just trying out different transormations for media vars n was also trying different splits to have some decent model fit. 
+Along with this I am checking the contribution as well. right now it seems very high.. but yah I am still working on it..
+today also I am gonna try out the samething.. thats the update for 1MT
+
+R2 is really good where as MAPE is super high which is varying between 25-40% 
+
+
+
+
+
+
+when are you guys planning to shift to Mysore? 
+
+Jimit I am not gonna join office until my manager comes to office regularly!!
+what say? I thought I will send this reply to you since you asked for it
+
+Jimit mine is clueless right now.. I always plan to come to Blore but situation suddenly changes here..
+I will see n try to join by first week of April
+
+I will drop an email if in case I join late..
+
+DigitalImp_Unity_MAIA_May_Jun_TRFM have insufficient variation to estimate coefficient WARNING: there are insufficient due-to periods -> 1"
+
+
+Hi Ashwin 
+
+I wanted to update you on OneMT & Stone Brazil
+
+I have the first cut model ready.. I have to analyse the results in detail if it makes sense or not. Also I am not able to check holdout validation as there are multiple 
+vars only occurring during the holdout and some of them are executed for very short time period hence i am getting an exception error. I will check w Mohit/Jimit on this and get back to you.. 
+
+In stone brazil I have recieved the data for 2021 and 2020 report yet to recieve.. We will update the data tracker tomrrow and share it w you.
+
+
+Can we connect Tomorrow/ day after to review basis your availability?let me know
+
+
+Jimit you remember while doing the holdout validation in Bolt;the variables that was only present during the holdout period, it used to give 0 coeff right?
+
+But here in 1.5 version I am getting an exception error. I am not able to validate holdout for any of the time period.. 
+
+if I have a vars that are like sharing an observation from the actual modeling period (apart from the holdout period) that wont be a problem..But here there are multiple 
+vars only occurring during the holdout and some of them are executed for very short time period. 
+
+I checked for 3 months, 2months 15days n 7 days  none of them are working.. I just have 6 months of modelling period & I have split them basis trend(2-2 months each)
+What do I do now to validate my model? frankly I am stuck here in this step!
+
+
+
+Hi Deepak,
+
+Thanks much for the information. I have sent the requested documents to the below mentioned address.
+
+TPA Address :
+
+Mr. Koushal
+Family Health Plan (TPA) Ltd
+No.11, 2nd Floor, E Block Niton Buliding
+Palace Road, Bangalore – 560052
+Ph : 080- 22356256/22356257
+
+Please let me know how to proceed further ( if any)
+
+Thanks,
+Kavya
+
+I am working on one of the gaming project and I wanted to do holdout validation.. Also my modelling period is just 5 months and there are splits n multiple vars- only occurring during the holdout and some of them are executed for very short time period
+
+While cheking the holdout I will get an exception error coz as I mentioned some of them are executed only during in holdout..
+
+I checked for 2 months. 1 month 15days and 7 days.. but its not working for any of the period I choose. frankly I am stuck here n Ashwin said to check w you once..
+
+________________________________________________________________
+
+As I mentioned, I have the first cut model ready for 1MT.. we can review it today evening in our scheduled call
+
+Also I had informed you that i was facing some problem while checking the holdout validation..
+For now, I have done that execrcise out side the platform by giving some proxy coeff, only to those vars executed during the holdout.
+ We can discuss this as well in our call today Ashwin..
+
+I had requested 2020 data on friday.. still I have not recieved the report.. For now I have checked the 2021 data likw on what granularity data avaialable and all
+I have updated the same in tracker as well and shared w you this morning..
+
+data looks fine for 2021 
+
+I can update you on that once I recieve
+____________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+Jimit do you think its better if we have separate spend column for video n static? or should we combine them together?
+
+
+For now, Lets keep it the same way
+
+
+
+
+
+
+Hi Paul,Hope you're having a good day.. sorry whats the time there?
+
+As Jimit mentioned I can help you with the process & the methodologies of MMM. so you can approach me anytime and ask Qns.
+ I should be able to answer most of them if not I will check and confrim with my team members and get back to you for sure
+
+I am Kavya this side
+
+Summary for digital data
+could you please add one MT & StoneBrazil to the project list?
+I wanted to fill timesheet today..
+
+Yes Jimit is going to create it I guess..
+As Jimit mentioned I will help you with the process you can approach me anytime and ask Qns.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Actually, Today noon I showed One MT model directly to Ashwin.I didnt know it should be evaluated by you first and then show it to him!
+
+He is not sure abt some of the variables which I have used in model(like linear,weekend vars etc).. And the contribution too
+
+Also I have discarded initial 15 days of data where revenue was negligable; he wants your opinion on that as well.
+
+thats one of the reason I want to connect w you
+
+Yah we can discuss about NDG as well
+
+
+
+
+Jimit some Notes FYI:
+
+For AFF & PSD adds I see there are spends but no impressions
+I have sort it based on 2019- 2020 spends data
+
+
+
+
+Both Jimit and I are on leave today.. I am sharing the DRD which was used last time
+You can go through it and later we can connect to discuss the same? 
+
+ Meanwhile I will check with Sekar to create new template for NDG Japan
+
+Check trend for :
+Campaign Objective
+Platform
+Device platform
+Video
+
+For 'placement' lets just create a summary table for 2020 & 2021 no need of  charts because there are many categories. You've already done that just that we can replicate the same in the deck
+
+
+
+Q1: "Cumulative machine counts" is one of the independant variable mostly this data is given to us by client
+
+Q2: POS is point of sales - its normal sales at a store and instore sales is offline sales which is also sales at a store. Actually both are same
+
+Q3:
+
+
+
+As discussed with you, I connected with Jimit as well to sort of align with results and took his inputs and was tring out multiple iterations
+Yest I tried toget media contribution to in around 70% Ashwin.. I had to tweak the model again to get some decent model fit n contribution.. 
+Now I am working on updating the summary and might connnect w Gowtham to align on the summary format and all.Later today we can review the results..
+
+Also can I talk about stone project here Ashwin?
+
+I could not send you the data tracker and slides for FB.. yest I have recived 2020 FB data as well. which is very huge data there were 3 files only for 2020
+ and it took some time for us for processing
+coz everything we could do is using python (including taking pivot n summary).. excel was not supporting this.. Shikhir has already prepared the slides.
+ I will just review and share it with you 
+Also i will share the updated data tracker 
+
+as we dont have data for KPI We will only plot these FB data trends right ? and the summary below the chart
+
+
+But Matoba Do you want me to create based on imp?
+
+Jimit if you have time today please will go through data once? just to make sure- not to get off track interms of vars n all
+
+
+
+
+
+
+
+
+
+
+Firday I connected w aakash inorder to understansd the steps n creating the response curves using platform
+I just have started working on that.. 
+Today i will try n focus on getting it done
+thats the update ashwin /progress
+
+
+
+Just wanted check with you if you find any data related issues while preparing the DRD
+
+I have put my comments/Notes. Thought will check with you too
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi,
+
+I will be away from the office laptop until evening today with no access to email.
+I'll get back to you as quickly as possible when I return. Have a good day!
+
+Thanks,
+
+
+I'll be sure to respond to your message as soon as I'm back in the office.possible upon my return.
+
+ I'll get back to you as quickly as possible when I return.30-Jul-2021
+
+
+Hey Jimit
+
+Sorry today I could connect w paul n give update on DRD  ..
+It's better if we do weekly mapping from Monday th' Sunday to maintain consistancy (instead of Tuesday th' Monday)
+You can refer capsule sales starting Date for reference..where we have weekly level data
+
+Let me know if you want me to share the formula/template to convert daily to weekly(Mon th' Sun)
+
+
+
+Hi Team,
+
+We require DDE environment for the MMM Nestle project NDG, could you please help us with creating the URL for it?
+
+We will mostly deliver the platform to the client.
+
+Kindly let me know if you require any other information.
+
+Thanks,
+Kavya
+'\Kavya Bhat-8.13.2021\SynologyDrive\MMM 1MT\[1MT_KC_USA_IOS_FEB2022_V2_DataExport Fin.xlsx]Transformed Data'!$A$11:$K$9755
+
+
+
+Hi Paul
+
+I have reviwed your version and highlighted my comments in those slides where numbers looked incorrect.Also I have included scope slide.
+let me know if you want me take up any slide?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tomorrow are you avaiable for half an hour? I will set up sometime to review the Model results for OneMT along w RCs
+
+Its quite time consuming
+
+
+
+
+
+Lets do this paul -will have three line charts -one for desk,mobile and last one for tablet lets not combine these three for now.
+
+Will do similar charts for 'All Pages including Top Page' & for 'Machine'
+
+lets also check the trend of these
+
+
+
+Since this is not part of media
+
+No in one chart we can create three separate buckets for (Desktop,Mobile & Tablet) because I dont see any high collinearity between them
+
+We can later ask Matoba san what level of insights required from website performance?
+
+create only for 'All Pages including Top Page'
+
+
+
+When are you plannning to give treat to me Jimit? 
+
+
+
+Hey Ashwin, 
+I will try n review the results with Jimit today
+
+
+
+
+Actually I wanted to review model with Jimit today but RCs n optimization is quite time consuming in the platform;
+I am not sure if this is happening w everyone..coz I keep on getting errors ; I check w the team but eventually I have to approch tech team to resolve them
+this is kind of consuming moretime than expected..  
+
+If error free platform means I would have complted somhow but now I cannot guarentee that today I am gonna complete or 
+so tom wo tech team's support i am kind of stuck;I have pinged Nandini coz i am not sure about the mail she has written yest
+I am waiting for her response but as soon as i complte I will keep you updated via mail
+
+From my side its all done Jimit If he shares with me the DRD I will review it again and consolidate a few slides which I have worked on and share it w Sekar
+He said he will share it with me in an hour so I am waiting for him
+
+I feel he might take time.. Slides formats are not as per our template..
+
+
+What I meant is fisrt section we will just have KPI 1 trend vs everything(Digital,TV,temp etc)
+next section Second KPI vs other trends n so on
+
+instead of keeping them tpgether.. What do you suggest?
+
+I had a word with Sekar
+There are 60 slides..He is saying he might take time .
+
+If its not very urgent he will share the DRD by Monday Evening
+And he is not available tomn day after 
+
+In simulation when we try to optimize media spend right? is there any scenario occured where base senario itself is the optimized results for all media vars?
+Can this happen Jimit? 
+
+Or it might be because 
+
+
+
+
+
+Hi Ashwin, I have the model result ready w the RCs.. Sorry last week I couldn't connect w Jimit to review the results 
+as RCs n optimization is quite time consuming than expected in the platform;I believe.. w quite  alot of errors n exceptions.
+ Still I am facing some of the errors but yah I am following up w the tech team
+Today atleast i will try review the model n the RC results w Jimit and if the results look okay I will keep you posted n then we can review it w Rahul as well if required.
+yah thats the progress on OneMT.
+
+
+
+
+I am not sure if this is happening w everyone..coz I keep on getting errors ; I check w the team but eventually I have to approch tech team to resolve them
+this is kind of consuming moretime than expected.. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I really need help getting this done as optimization 
+I pretty much connected with everyone and I still feel being stuck
+
+I am not able to rely platform Ashwin..whtever I do optimization gives me the same base scenario  results 
+
+
+Can I like try doing this optimization n RC outside the platform n check?It wont take much timw I believe
+
+
+there is no as suvh update on OneMT.. I am still facing the same issues on the platform
+ yest i tried to connect w most of them specially with the tech team and tried all the feasible ways to get the right ieration 
+but I am still not able to fix the error  but today I have scduled a call with Narasimha n Jimit to sort of discuss about the issues I am facing.
+
+
+my response curve results seems okay but after running optimization is not working its just shows base scenario results for 0% increase in budget 
+no changes in the optimization results at all. 
+
+
+
+
+
+
+
+
+
+Hey Ashwin,
+
+As I informed you earlier I was facing some sort of issues in the simulation model.i tried to connect w most of them specially with the tech team..
+ but there seemed no solution found... So yesterday Jimit n I connected with Narasimha Ashwin n Amit..
+They have asked me to try out some of scenario's if it works.. also I am trying one iteraion outside the platform for optimization(Just to see how it works)
+
+today mostly will review the results w Jimit. 
+If the results looks okay than tomrrow probably we can review it w Rahul anf you for sure
+
+Yest I have taken the KT from Akash for all the projects he was working on
+Coming to the paper games he has mentioned about the next steps n what i will have to work on.. 
+I guess High MAPE is one of the big issue here.Today I will try n see if I can work on that as well.
+
+
+I have inputted the same RC details which i got from the platform as well as historic spend and revenue are matching! I checked it already
+
+
+Hi Amit,
+
+This is about the OneMT project which we had some sort of discussion about the optimization results yesterday. 
+the results I was getting here was not defendable hence Just to give a try I ran the optimization outside the platform using the simulator tool(in excel)
+I have used the same Response curve data which I downloaded it from the platform and ran this tool w fixed media budget..Surprisingly after optimisation I got expected result(with 11% incr in the revenue) which is not matching with the platform results at all :(
+
+
+
+Just wanted to update you on some of the projects I am working on
+
+PAPERGAME_REVENUE_FEB'22 
+
+
+
+
+
+
+Gume:
+
+I have updated the deck and shared it w you yest for the review.I have tried to maintain the flow wrt topwar deck 
+but if you find anything is missing in the deck or requires  any modifications do just let me know.I will just do taht
+
+Papergame: 
+Whatever the changes Aaaksha had told w regards the media I have done that work. One major issue was model error kind of super high. it was not in range
+Somehow adjusting the media and also I ve removed some unnessary dummies .Now MAPE seems to be around 19% and this Model I have reviwed it w Jimit as well.
+He is okay w it and asked me to set up some time w Rahul tomrow to review it w him. Meanwhile If i get time i ll try to improve it further.
+
+I will try if I can improve that model and later today or Monday I will connect w Jimit to sort of finalise this
+
+OneMT: its on a hold right noe
+two weeks before I had created RCs and reviewd it w jimit and curves were looking okay.. I also wanted check how optimization works in the platform
+ there ,I was not able get the optimized result with fixed marketing budget(0% incr in spend)
+I was geeting the same base scenario results even after optimizing them 
+I connected with almost everyone including tech team so nothing worked
+at last,Jimit n I connected w Narasimha Amit and ashwin to sort of discuss about this issue.. they gave some sort of solution but it was not working and the results 
+I was getting were not explainable.
+they suggested try out optimization outside the platform using solver.
+
+I tried that and luckily I got the better results but it was not matching with the platform.
+
+again i had connect w Amit n Nandini to show this results. why it's not matching
+Amit told ne he will discuss this with Rahul and get back to me n Jimit
+
+I am still waiting for his response as I am not sure what do I do to proceed further.
+
+
+Whenever you're avaiable today please add Gume project to my timesheet
+
+
+
+Hey Ashwin
+
+Rahul has suggested an alternate time for papergames
+Its around 1.30pm IST tomorrow but your calendar seems blocked at that time. Shall I go ahead or reschedule to Wed?
+
+Actully its on hold Gowtham.. I had a word with NRC n Amit they suggested me try once outside the platform
+Surprisingly results I got using slover was more accurate n defendable. 
+but it was not matching with the platform hence I connected w Amit to sort of resolve this but he told that he will discuss this issue w Rahul and get back to me
+
+
+
+
+
+
+
+
+
+
+
+
+
+papergame ka model review ho chuka hey w Rahul?
+Nai na?
+
+I 
+
+0.5<  0.27  
+
+1.1
+
+1.7
+
+2.7
+
+
+0.4 
+?  0.27
+
+0.1
+
+0.4
+
+
+either slide like tube
+
+text box 
+
+graph as perlevel of spends
+
+
+tototal imp pre n post
+spend
+cpm
+avg imp per day
+avg spend per day
+
+RC 1000 close to be
+effetiveness
+
+
+
+
+
+
+Googlepostmay_Scaled_TRFM_07_1_15
+
+
+marketing efficiency = (revenue / marketing cost) x 100
+
+
+
+Jimit I may have to take leave in the month of April
+
+Hi Ashwin,
+
+I may not be able to join today's call as I have another call to attend
+
+Updates
+
+OneMT: Day before yesterday I have Sent the excel summary to Rahul for the review. Waiting for him to respond; Meanwhile Will start preparing the deck.
+
+PaperGame: Jimit and I reviwed the model results w Rahul yesterday.. He was okay with it. He has suggested to look at optimization results once so as to align with RC results.
+I am working on it and we can review it together later today/tomorrow to align w the storyline.
+
+Gume:I am waiting for your feedback to recieve 
+
+
+I may need your help in presenting the results Ashwin.. I will look into the model vars,results etc. 
+
+
+
+Jimit there are multiple places you can visit nearby Mysore;
+
+chikmagalur- trippr
+Coorg - misty rain holiday inn, Zostel
+Kabini- discovery village is famous there I guess ,backwater resorts you can check Mayookham Resort
+kodaikonal Zostel
+OOTY- stay in Sterling resort for one day 3hrs
+Sakleshpura -4 hrs
+Gokarna
+
+Bir zostel , dhobi ka 
+
+I need your help in presenting the excel model summary.. Just wanted to know like how can we present it in a better way
+
+
+
+
+Gume I am working on the comments Ashwin.. After that
+
+SInce it s not been reviwed actually I wanted to run them past Sekar as well as Gowtham.
+ in case something looks amiss.and also I will check w them regaring the formatting work and the flow
+
+Paper game:Jimit and I have already reviwed the model results w Rahul..He is okay with results.
+ He has suggested to look at optimization results once so as to align with RC results.
+I have worked on it. I just need to update the summary sheet and align on the formatting work. 
+later today or by Monday I can share the PI excel summary w you and Jimit to review and to align on the storyline.
+
+
+OneMT: I guess we will be presenting the insights next week based on the clients avavailability.
+Meanwhile I thought I Will start preparing the deck.
+
+
+
+________________________________________________________
+#Mail.ru, Gume add it to timesheet
+
+Hey Jimit
+
+Good Morning
+
+NDG sales and rentals are matching with the old file for 2020 juat that you have added it with NDG POS.
+May I know what is POS? I hope this time we are not adding it up w anything 
+
+Also in total Digital impressions there is a 2% variation in the data where as spend is matching the old one.
+
+yes we do have.. I asked question on this file because i was'nt sure what exatly the file was
+
+
+1.	Is there any variables which do you think would help us in the model? Below marked points are something  
+
+Hi Meta Team,
+
+Hope you’re doing well.
+We have the Papergames final presentation almost ready.
+Also, we have planned to directly present the final presentation with the Papergames team before that we wanted to run them past you and Shared below are preferred timeslots.
+1. April 21st ( 12.30 PM – 1.30 PM SGT)
+2. April 21st ( 2.00 PM – 2.30 PM SGT)
+Please let me know if the above slots works and we will send an invite accordingly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Actually we are not getting proper optimized results using platform
+
+So we tried using excel solver where we see some kind of correct results
+
+So Ashwin nagaraj wants the OneMT Simulator with macro enabled file today by EOD
+
+
+
+Thanks for checking in, for me I am available – 
+•	Mar 30, 12pm-4pm
+•	Mar 31, in the morning
+ 
+By looking at the data I dont think we will be able to capture these peaks through any of the media tactics.. Also the peak we are seeing here mostly during in the month of Dec..
+I guess we can have Dec dummy to sort of capture this right?
+
+https://papergames.ae-dde.com
+
+
+PAPERGAME_REVENUE_FEB'22 
+
+28th Mar Final
+RC 28th Mar
+
+
+there are some other meetings I have attended and have done some work for it.so is there any options like Others where I can mention about it in the timesheet?
+
+
+Hi All,
+
+This is a placeholder to review the papergame model results(Excel version).
+
+Agenda-
+
+
+> 
+> Media,Events performance & ROI summary
+
+A meeting link will be sent to you shortly
+
+Thanks,
+Kavya
+
+
+In papergames RCs,currently we are suggesting them to maintain their spend for twitter n YT where as for FB increase it by ~30%
+
+Excel solver says to increase spend only for twitter as its ROI stands out compared to others even if we increase the total budget to 10%
+
+
+
+Hero Wars - Fantasy world
+Raid shadow legend
+AFK arena
+Idle heroes
+
+
+
+
+
+
+
+Hi All,
+
+Rescheduling the call to 3pm SGT for the agenda below: 
+
+> Gume Final Presentation
+> Papergames preliminary Insights Review
+ 
+A meeting link to join the call will be sent to you shortly.
+
+
+Thanks,
+Kavya
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Paul this is not a big issue to escalate it to anyone 
+just in case if you have not worked with Jimit.. 
+
+
+ blocking your time for the agenda below
+
+Sorry I was about to call you but then got into another call 
+whats wrong with Paul? what nonsense is he talking n reacting so hyper? 
+
+A
+
+
+Jimit why are you wasting your time by speaking to
+
+Paul not to involve in this conversation because I feel this is not a big issue but just in case I have been working with Jimit since past 3 years and working under him was 5Xgreat experience one could ever get
+and also one of best manager you could ever get to work and grow with
+
+Anyways you be chill
+
+
+The changes you suggested yesterday I have worked on it Ashwin. Optimization We will have to check once in the platform inoder to see whats happening there
+And there is some issue in the Gume platform. whatever I do i am getting some error messages
+I have informed this to Ganapati. I am waiting for him to resolve this issue.
+
+
+
+
+
+Hi Jimit
+
+Would you mind if I ask you to review the Gume deck once? before sharing it with the FB team? I will just take your 5 10mins
+
+
+
+
+
+Please let us know if you have any questions.
+
+Please find attached the updated Thums Up and Sprite excel model results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Youtube3_TRFM_TRFM_1_SC
+Youtube4_TRFM_TRFM_1_SC
+
+
+Youtube_Imp_1_TRFM_SC	
+
+
+
+Thanks for the time today!  
+
+
+Hi Hollis,
+
+Hope you're doing well.
+
+we have the final presentation ready for Gume developer- Soul Land Reloaded game and we are available in the following timeslots this week.
+
+Kindly let me know if the above timeslots work.
+
+
+
+
+
+
+ask her to fix up the time with client
+
+papergames n gume
+
+
+
+
+Hi Hollis,
+
+We have the Prilim Insights ready for Papergames- Shining Nikki game and we would like to set up some time with the client next week.
+
+We are available in the following timeslots this week.
+
+1.	7th April - Thursday( 3 : 30 PM - 4 : 00 PM IST)
+2.	8th April – Friday (3 : 00 PM – 3 : 30 PM IST)
+
+Kindly let me know if the above timeslots work for you.
+
+
+Thanks,
+Kavya
+
+
+Hi Hollis we have papergames- shining nikki prilim insights ready to present it to the clients..Wanted to check your availability so that I can share timeslots for papergames as well.
+
+I will share the new timeslots for Gume project in sometime.
+
+
+
+10.11 papergames
+Monday 12th 3 to 4
+
+
+
+
+
+
+Sick leave required
+
+Hi Ashwin , Hi Jimit
+
+This is to bring to your kind notice that I won’t be able to work today. I’ve been feeling under the conditions since morning
+
+
+Yes,The Model results for the KPI machine sales are almost ready to review.
+I have been feeling unwell since past two days due to which I could not set up time with you this week.
+
+I hope to be back in the office on Monday. Please let us know when would be a right time early next week to take you through the same
+
+ I hope to be back in the office tomorrow.
+
+
+This is to bring to your kind notice that I won’t be able to report to work rest of the day today due to my sudden personal illness.
+
+I hope to be back tomorrow but will keep you in the loop on my progress.
+
+If something urgent comes up, I’ll be able to answer calls/emails
+
+Sorry for the inconvenience
+
+
+
+I hope to be in the office tomorrow, but I will keep you posted on my progress.I’ll be sure to keep you posted
+
+I expect I will not be at work tomorrow either; however, I will update you later today on my progress. but I will need to take the day off to rest.
+
+
+
+Unfortunately, I will not be able to make it into the office today as I am sick with a cold.
+ I expect I will not be at work tomorrow either; however, I will update you later today. I can still reply to urgent emails periodically, 
+but I will need to take the day off to rest.
+
+I have let [name] know they need to reschedule today’s meeting and to look over [task due].
+
+Sorry for the inconvenience, 
+
+
+
+1.	8th April – Friday (12 : 00 PM – 12 : 30 PM IST)  your calendar looks 
+
+
+inconvenience
+
+Throne of the Chosen
+I am off sick today. Could you please give us sometime till today or can we reschedule this meeting to early next week?
+
+Hi Ashwin,
+
+Due to high fever and my carelessness one of my ear got blocked and infected I believe as i am finding it difficult to talk and swallow at the moment. 
+Thats why I pushed presentation to next week.. Friday should be fine for me
+but Could you please give sometime till evening as I am visiting doctor.. based on that i will confirm the date? hope thats okay?
+
+
+
+Not great but I am working today. 
+
+Hi Ashwin,
+Just to give you update on my projects
+For Gume presentaion we have schduled a meeting with client on 12th April
+OneMT and paper games I will start populating the numbers in the deck and work on next steps(optimization)
+Today I will ping Hollis to check with her to sort of set up some time next week with client for papergames PI.
+
+
+
+
+Yes,The Model results for the KPI machine sales are almost ready to review.
+I have been feeling unwell since past two days due to which I could not set up time with you this week.
+
+I hope to be back in the office on Monday. Please let us know when would be a right time early next week to take you through the same
+
+i drifted off to sleep
+
+Tweets
+Awareness
+Purchase Intent
+Instore Sales Demo
+Instore ID POS
+
+
+
+
+Mail.ru
+Gume
+Papergames
+
+
+
+'C:\Users\Kavyahbhat\Downloads\[KPI_MachineSales-System Model_2_2_27-Model Export-07_04_2022_12.44.52.xlsx]Model Decomp'!$A$9:$H$5975
+
+
+
+
+Good Morning Jimit,
+
+Attached is the NDG summary sheet for the KPI Machine Sales for your review/feedback.
+
+Changes done:
+•	Removed - Instore sales demo
+•	Introduced seasonality variables for each year
+•	Results for 2019H1 vs 2020 H1 are aligned with the reported one(I have attached the validation sheet for your reference)
+•	Aggregated level has been changed to Static, Video, YSS, GAW, AFF, TV & Promo
+
+
+Kindly go through the summary and let me know if any additional information needs to be added/modified.
+
+Apologies for not being able to share it with you yesterday as I had run multiple iterations in order align with the direction of the variables and model fit.
+
+Thanks,
+Kavya
+
+
+
+
+For gume specifically we had very limited modelling period(approximately its a mixture of 4 months) 
+and hence we split or considered Aug and sept as S3 period 1 ; Oct -Nov as S3 period 2
+
+
+2. using an independent variable to predict the values of dependent variable.
+
+Regression analysis is a reliable method of identifying which variables have impact on the KPI.
+How it works is it when we input the independant variables it based on the trend  determine which factors actually influencing your kpi and
+ which factors are not helping to drive your sales
+ and how these factors influence each other.
+
+
+Initial few days were discarded beacuse game just launched 
+
+
+
+
+
+Hi Matoba San,
+
+I have attached the latest summary sheet for the KPI Machine sales for your review.
+
+Highlighted below are some of the changes made to the model :
+•	Now the model also includes Instore sales demo and instore rental demo variables.
+•	For some of the major media variables - I have used separate three variables across the three years to better capture the impact
+
+Kindly go through the results and let me know if you have any questions
+
+Thanks,
+Kavya
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi Meta Team,
+
+Hope you’re doing well.
+We have the Papergames final presentation almost ready.
+Also, we have planned to directly present the final presentation with the Papergames team before that we wanted to run them past you; shared below are the preferred timeslots.
+1. April 21st ( 12.30 PM – 1.30 PM SGT)
+2. April 21st ( 2.00 PM – 2.30 PM SGT)
+Please let me know if the above slots works and we will send an invite accordingly.
+Thanks,
+Kavya
+Good Morning Matoba San,
+
+Apologies for delay in responding as I was trying out some more iterations to get the DT in order.
+
+I have attached the latest summary sheet and highlighted below are the changes I have made :
+•	Overall Own Ads Summary result remained the same
+We will seek for your valuable feedback on the sprite model update and align on the next steps.
+
+Please let us know if you have any questions.
+
+
+Good Morning Matoba San,
+
+Apologies for delay in responding as I was trying out some more iterations to get the DT in order.
+
+I have attached the latest summary sheet and highlighted below are the changes I have made to the model :
+•	There is no significant change in incremental compared to last version however we have used base trend and seasonality variables in the model in order to capture a change in the base over time.
+•	We do not have DT for seasonality(0%), where in for base trend (used Linear trendline) we have approx. around -5% to -6% DT.
+•	Introduced Covid dummies to the model to capture the dip caused majorly due to Covid-19.Dummies are used based on positive covid cases in Japan( Source : Public website)
+o	Currently there are two dummies in the model : 
+o	1. Covid_2019 : This is used to capture the dip when Covid-19 has just started
+o	2. Covid_2021 : To capture the dip caused due to second wave of Covid-19
+•	In Current DT sheet we are also showing some impact caused due to Covid-19
+ 
+
+Kindly go through the results and share your feedback to align on the next steps.
+
+Please let us know if you have any questions.
+
+Thanks,
+Kavya
+
+
+
+
+
+
+Hi Ashwin, Hi Jimit,
+
+Hope you are having a wonderful week.
+
+I wanted to keep you both in loop regarding my upcoming leave plans.
+I would be away from my work laptop on these dates:
+1.	29th April
+2.	6th May  
+3.	10th to 13th May
+
+Kindly exclude me from any scheduling done on above mentioned dates.
+
+In case I am needed for any tasks, please inform before hand so that I can try to accommodate it without missing our deadlines.
+
+
+Thanks,
+Kavya
+
+scaling down, SD 
+
+# of observations 
+
+35-
+
+SD priors 
+
+supposeincrease doesnt have space to incre
+
+
+
+ whichever the var causing the issue right
+
+which 
+
+Hi, Thank you for your email.  I am on personal leave and will have intermittent access to emails. Please feel free to drop me a message on +91-7838954773. I will respond at the earliest possible. In case of any urgency, please reach out to Pramod at pramodmoolachery@analytic-edge.com. Hope you have a good day! Thanks,Amisha
+
+
+Hi Meta Team,
+
+Blocking sometime on your calendar for the agenda below:
+
+	Review the Final Presentation for Papergames
+
+We will share the Zoom invitation link prior to the date 
+
+Thanks,
+Kavya
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We use regression algorithm.this algorithm helps or examine the relationship with all the indepenadant variables with the KPI
+independant variables in this case are media ,updates & events and some of the base variables like holidays etc.
+based on the relation ship it has with the KPI it tries to bulid the model and we validate the model through stastistical parameters  that is R2 and MAPE.
+
+if you have sometime today after your call please do review and let me know your comments; mostly I will be available post 1AM today and work on your comments
+Results are pretty much aligned with the Machine sales interms of directions; if you have any Qns ping me via watsapp and I should be able answer.
+
+
+
+kharota , bangottu has the best view point
+cricket stadium
+Norbulingka Institute - 
+
+gyoto temple
+siva temple 
+bagsu shivas cafe- with Shiva Cafe is located on top of a waterfall. It's a steep walk but worth it.Bhagsunag
+The Cocoon Project is really amzing if you're statying there it feels like typical himachal in between 
+
+church n dharmakot
+Gume iOS - 24.0%
+ONEMT iOS - 23.7%
+Papergames iOS -1.9%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi Rupa,
+
+Below are my thoughts and tried to take small steps toward implementing them:
+•	One step I have taken is to be part of the trainings and sometimes effectively engage with the teams as the flat culture at AE helping us to streamline the entire communication process
+•	I have shared my knowledge that I have learned so far(Specially with the new team folks) parallelly tried to learn from everyone’s experiences in the team 
+
+ 
+Course of action: 
+•	Going forward would like to share knowledge based on my current experience.
+•	Learn to be effectively communicate
+Flat culture
+
+
+
+
+
+
+Hi Matoba San,
+
+Good morning
+
+I have attached the response curve/optimization deck for the Machine sales model for your review.
+
+The following slides are included in the attached deck:
+
+•	Response curves for each of the media metrics categorised as static, video ,TV and others.
+•	There are three additional slides in ‘Section 5’ where I have combined the response curves based on above-mentioned categories
+•	Optimization results with no increase in budget scenario.
+
+Please note that I have also attached the simulator tool for your reference.
+
+Kindly have a look at these slides/tool and let me know if you have any questions or additional slides that needs to be created/removed with respect to this.
+
+Have a pleasant weekend.
+
+Thanks,
+Kavya
+
+
+
+
+
+
+
+
+

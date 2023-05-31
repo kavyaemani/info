@@ -1,0 +1,106 @@
+MEASURES	MIXED EFFECTS	MEAN CENTER	 	COEFFICIENT VALUE	STANDARD ERROR	T-STAT	P-VALUE	VIF
+	Intercept			 	1,179.79387	187.635	6.288	0.000	0.000
+	Covid_Fri_Original			 	1,654.62457	167.017	9.907	0.000	1.386
+	Covid_Holiday_Bank			 	631.92156	273.972	2.307	0.021	1.381
+	Covid_Holiday_Christmas			 	1,952.19909	681.303	2.865	0.004	1.077
+	Covid_Holiday_Easter			 	985.32377	275.113	3.582	0.000	1.137
+	Covid_Holiday_Halloween			 	1,537.75523	744.537	2.065	0.039	1.286
+	Covid_Holiday_NewYear			 	647.91538	494.606	1.310	0.191	1.133
+	Covid_Holiday_Others			 	192.07284	683.924	0.281	0.779	1.085
+	Covid_Mon_Original			 	-583.58256	170.739	-3.418	0.001	1.449
+	Covid_Sat_Original			 	3,581.87899	178.091	20.113	0.000	1.576
+	Covid_Sun_Original			 	1,690.13314	179.241	9.429	0.000	1.597
+	Dec_2019			 	2,407.52610	338.194	7.119	0.000	1.582
+	Dec_2020			 	1,245.85977	310.774	4.009	0.000	1.336
+	Halloween_weekend			 	2,432.62383	395.624	6.149	0.000	1.086
+	Holiday_Bank			 	800.53657	502.087	1.594	0.111	1.168
+	Holiday_Christmas			 	5,983.60076	675.224	8.862	0.000	1.057
+	Holiday_Halloween			 	1,312.44512	664.524	1.975	0.049	1.024
+	Holiday_NewYear			 	6,720.55876	478.160	14.055	0.000	1.059
+	Holiday_Others			 	1,035.07081	386.452	2.678	0.008	1.037
+	Lockdown_Fri			 	970.58161	188.095	5.160	0.000	1.209
+	Lockdown_Mon			 	-92.96206	185.802	-0.500	0.617	1.180
+	Lockdown_Sat			 	2,237.43180	190.948	11.717	0.000	1.246
+	Lockdown_Sun			 	1,008.24813	184.887	5.453	0.000	1.169
+	Mobility_Transit			 	10.13003	3.622	2.797	0.005	17.663
+	Precipitation			 	9.58889	6.091	1.574	0.116	1.126
+	PreCovid_Fri			 	1,547.06488	121.628	12.720	0.000	1.306
+	PreCovid_Mon			 	-450.12210	123.729	-3.638	0.000	1.319
+	PreCovid_Sat			 	3,669.43582	125.332	29.278	0.000	1.387
+	PreCovid_Sun			 	1,848.71980	125.567	14.723	0.000	1.392
+	Event_Cost_Others_F			 	5.31595	73.585	0.072	0.942	2.172
+	Event_FreetripWaitingVol1_Cost_F			 	25.13520	308.790	0.081	0.935	39.806
+	Event_FreetripWaitingVol23_Cost_F			 	60.28080	286.916	0.210	0.834	33.917
+	Event_OOH_Campaign_Cost_F			 	63.76130	124.496	0.512	0.609	6.494
+	Event_RMNFTR10GBP_Cost_F			 	144.46440	159.945	0.903	0.367	5.113
+	Event_RMNFTR8GBP_Cost_F			 	55.04640	185.684	0.296	0.767	8.399
+	Lifecycle_Adhoc_TSM			 	0.00375	0.002	2.415	0.016	1.225
+	Lifecycle_UserCampaign_TSM			 	0.00056	0.000	1.790	0.074	1.318
+	Ref_10gbp_2019F			 	16.68572	281.669	0.059	0.953	2.853
+	Ref_10gbp_C			 	0.00436	0.002	2.875	0.004	3.762
+	Ref_12gbp_2019F			 	399.73733	215.925	1.851	0.065	4.205
+	Ref_12gbp_C			 	0.00148	0.002	0.751	0.453	3.639
+	Ref_Others_C			 	0.00109	0.002	0.452	0.651	4.116
+	Signups_14gbp_E			 	0.03647	0.045	0.813	0.416	5.920
+	Signups_5gbp_E			 	0.15289	0.022	7.082	0.000	3.694
+	Signups_6gbp_E			 	0.21627	0.028	7.645	0.000	15.145
+	Signups_7gbp_E			 	0.21630	0.022	9.913	0.000	8.610
+	Signups_Others_E			 	0.16914	0.035	4.818	0.000	6.525
+	AppleSearch_Brand_Imp			 	15.02554	44.659	0.336	0.737	7.777
+	AppleSearch_NonBrand_Imp			 	10.67082	55.452	0.192	0.847	6.616
+	FB_Ads_Imp_V2			 	0.41987	0.131	3.207	0.001	8.118
+	FB_BrandAcquisition_Imp_V2			 	0.18128	1.564	0.116	0.908	3.973
+	FBPost_BrandAwareness_Imp_V2			 	0.37512	0.585	0.642	0.521	3.114
+	FBPost_engagement_Imp_V2			 	0.43341	0.473	0.917	0.360	3.244
+	FBPost_Reach_Imp_V2			 	0.11135	0.709	0.157	0.875	5.492
+	Google_Imp			 	0.23287	0.124	1.878	0.061	9.559
+	Google_SearchBrand_Imp			 	11.15027	52.487	0.212	0.832	15.355
+	Google_SearchNonBrand_Imp			 	12.25330	25.611	0.478	0.632	16.066
+	Google_Video_Imp			 	0.06827	0.366	0.186	0.852	5.867
+	Influencer_reach			 	0.91346	4.101	0.223	0.824	20.009
+	NonDigital_besidesOOH_spend			 	0.04674	0.124	0.378	0.706	2.701
+	OOH_AdPlays_2021			 	0.72770	0.178	4.098	0.000	5.702
+	OOH_Imp_without_Q2_2021			 	0.10152	0.099	1.030	0.303	16.106
+	OOH_TikTok_Imp			 	0.03140	0.967	0.032	0.974	6.245
+	Snap_Imp			 	0.12873	0.335	0.385	0.701	9.203
+	TikTok_Impression			 	0.07615	0.228	0.334	0.739	4.743
+	Total_TwitterAds_Imp			 	0.19785	0.728	0.272	0.786	4.759
+
+
+
+Jimit we can finalise the one where we have 0.6 adstock but santhosh is expecting to keep the one where half life would be around 4 to 5 days. 
+
+in that case we will have to go ahead with the model where we kept 0.15 adstock decay 
+
+Anyways i have the summary ready for all three approaches not really sure which one to go agead!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi Santhosh,
+
+In addition to my previous email, we have run one more iteration where we equally distributed the sign-up circulation between created and expiry date and applied ad stock transformation to it.
+Below snapshot shows the trend comparison of new circulation with the existing one.
+
+Outcome: Overall, the model fit looks okay but there is a slight underprediction in the latest time period when we compare it with existing model. 
+Issues: underprediction continues over the forecasts period but the low dip week looks better now.
+
+Also, Attaching the summary sheet and the forecast results for the above-mentioned iteration.
+
+Please share your thoughts on the model results shared so far. so that we can have the final model and share the results with Polina.
+
+Thanks,
+Kavya

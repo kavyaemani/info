@@ -1,0 +1,28 @@
+U3_EXP
+U6_EXP
+
+
+R-SQ 
+54.6 %
+MAPE 
+111.9 %
+
+FB_Ap_June_Gamma
+
+R-SQ 
+54.7 %
+MAPE 
+111.0 %
+
+
+YT_Ap_June_Gamma
+
+R-SQ 
+56.1 %
+MAPE 
+105.3 %
+
+
+
+we seee taht Most of the spikes are driven by the updates.. once we start adding the media variables KPI will be distributed across all variables
+

@@ -1,0 +1,2 @@
+after creating the response curves module we have download the data for each media or non media variables,
+instead in one hit can we download in one shot

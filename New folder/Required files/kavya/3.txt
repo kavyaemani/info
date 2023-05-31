@@ -1,0 +1,469 @@
+included all the slides required
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.99
+ 270 
+
+
+Jimit
+
+Even NRC needs time to work on this issue.He said he will work on it friday coz he s already ooccupied with many things.
+
+the alternate way -I told you right there were certain values of alpha beta where this problem won't be there but the question becomes on what basis did we chnage alpha beta values?
+
+   
+
+Hi Santhosh,
+
+Just to inform you on Bolt deck there is some issue in the RC tool and we will not be able show RC results in the deck
+I checked w NRC and he said he can work on it this weekend
+
+other slides are updated and sent for review.
+
+
+Santhosh kuch bol rahe hey lekin muje kuch samaj nai aa rah hey
+
+
+could you please do me a favor?
+
+If sebastein or santhosh respond to my mail 
+give me a heads up
+i am available here
+just that i am afraid of not recieveing emails on time
+
+
+I need charger to plug in
+but i can grab it real quick
+
+
+
+
+
+
+
+how do use this going forward and now we are mentioning about comparision
+
+
+I am tentatively blocking this we hope to achieve or complete rc and simulation by  we wanted to show it w you
+
+
+platform python
+
+variables-new slides
+time
+
+8 weeks is realstic
+
+FB: why FB recommending MMMM?
+9.MMM methology:soft wrap going more depth
+How is it done and what do we do exactly
+what is behind it?
+
+
+Key learn
+
+how long does it take from scrach
+
+Comp data: Generally Imp spends are used
+Skills: high level skills
+regardless of platform 
+coding experience in R,python,
+what we are learning from training n what is provided during training
+ 22. footnote effec,CPM formual why we used
+shows prformance of media whats the
+
+Google search/google ads
+FB post eng
+Google(Channels)
+Facebook(camp types)
+
+25th slide for full modelling period
+
+synergy bet 
+what would take bolt do multiplicative? 
+
+how we recommended to use n how we use it
+
+validating model
+priors to inform the model
+
+
+learnings:
+
+mod synergy
+
+We have done additive model we do not have synergies 
+synergies  between different media n non media activities cannot be simulated with this model
+we have done additive model and the advantages
+we could do synergies we require seciond modeling cycle
+multiplicarive model offer for next model
+
+variables
+
+how have treated media typically do it
+
+time required
+6 to 8 for modeller from bolt externall n internall
+a modeller internal or external  to bolt who has completed MMM training it shpuld take 6  to 8 for a new market or new KPI 
+ should be able to complete 
+
+after completing 8 weeks should be e
+sill set
+training modelling on the platform wo platform requires R python experience
+
+for someone not using DDE you would have to platform specific info
+rpeople use other platforms
+
+
+A modeller internal or external to bolt who has completed MMM training and have like 2 to 3 years of experience in building MMM model shuold take 6  to 8 for a new market or new KPI
+
+if they have like 2 to 3 different MMM model building experience
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i have the key learnings slides and i ve sent it to sebastein these are fine to send 
+
+
+Competitors media info as well as competitor base variables
+
+An additive framework does not capture directly our recomendation 
+
+Santhosh: help required
+polina has mentioned in key learning slide she wants us to talk more about synergycan you please check if we have written or captured it or snything is missing
+
+
+we can connect on these three and these are the comments polina had
+
+sebastein
+
+we have included but we are yet have a word with santhosh about it 
+ please send across your thoughts on this  this we will incoperate in the deck the same in the deck later
+ 
+
+
+It will also help if you let us know the questions with respect to the update.
+Please share your availability for a call so we can take you through the excel results.
+
+
+
+
+
+
+
+
+
+
+Hi Santhosh,
+
+I have attached the summary sheet for second KPI ‘registered users ‘.
+
+Overall, the model results are aligned with the spend data. However, the model fit appeared to be underpredicting continuously in the latest time period.
+
+we checked some of the media variables by running a few more iterations to understand and identify the causal of underprediction. It inferred to be Google and Apple branded search ads. If we let these variables to determine their coefficient; it’s taking the upper bound and procuring a much higher contribution value than expected.
+
+
+
+Thanks,
+Kavya
+
+
+
+If these variables are avaiable might be better:
+
+competion data inclusive of revenues/installs we can going ahead in the furure
+
+
+we didnt use this as priors in model this was just to acertain how close or far we were. we statistically not tested as we didnt enough lifts to capture
+
+
+Methodology on using a lift study as a prior to the marketing mix models
+
+FB study vs MMM comparision
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bolt- First time Activations Insights Deck 12.01.2021
+
+
+still need some info on how the layered structure works - how can we be sure that they work so well when actually they're brought in by FB & Google in the first place?
+
+addressing layered marketing: user come to the app because of facebook but activates due to discount
+
+
+I guess I am meeting NRC at 11am
+Do you wanna join? let me know
+
+ I am meeting NRC at 11am
+
+Yest I pinged Santhosh to check on Additve n synergies
+
+He said to share my thoughts or to check with NRC
+
+I sent him him these points so that he can add his thoughts but he said this looks fine
+
+1.Model form:  First time activation model is achieved using  additive model analysis as its easy to estimate and decompose. An additive framework does not capture the synergies directly and hence we recommend to use multiplicative model.
+
+3. A multiplicative model will be tested for the second KPI (Registrations).
+
+2. The advantages of using multiplicative form-- this type of model implicitly captures some interactions(synergies) between different media and non-media activities. It can also help to captures the seasonal &  irregular variations increase as the level of KPI trend rises significantly.
+
+
+
+So better I connect w NRC
+
+
+
+
+
+Hi Sir,
+
+Taking out sometime on your calendar to go through some of the business questions asked by client
+
+Questions:
+Info on how layered structure works? How can we be sure that they work so well when actually they're brought in by FB & google in the first place?
+Requested slides/files for MMM methodology and what's behind it so that she can share it with her team to understand the process. 
+If there is a conflict please do suggest an alternate time to connect today
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+his is a tentative timeline intended to be shared with the CCI team. Could you let me know your comments?
+
+Please recommend a time to connect for this. Also, let’s independently evaluate how we can align the two outputs. 
+
+
+
+Hi Team,
+
+Coming off from a positive feedback from the Senior Management at CCI, we have to ramp our efforts in completing the Phase 1. Setting up this meeting to discuss the next steps, deliverables and setting up potential timelines against each. 
+
+Let me know if would like to have it at an alternate time basis your availability. 
+
+Thanks,
+Akshay
+
+We (Amisha and I) have an internal meeting from 4:30 to 5:00 with NRC. Can we make this 5:00? Also, no other slot is available wherein everyone can come together. If not, then could you recommend another time today?
+
+Can you please help us resolve this at the earliest as this is holding us back. 
+
+
+
+Hi All,
+
+Coming off from a feedback from Polina,We would require your inputs on answering some of her business questions so that we can align and have everything ready before Friday Morning.
+
+Questions/Explanations to be covered in the deck:
+1.Limitaions of current model structure-
+-How to understand or analyse the current results, given the fact that it's one layered Model
+-Propose a approch that could be used in the future
+
+2.Can we create response curves & optimization scenarioes for non media spends?If not why?
+4.Suggestions on effectiveness
+
+
+
+
+
+Could you please help us resolve this at the e
+Also,no other slot is available wherein everyone can come together. If not, then could you recommend another time today?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi All,
+
+Coming off from feedback from Polina, we would require your inputs on answering some of her business questions so that we can align and have everything ready before Friday Morning.
+
+Questions/Explanations to be covered in the deck:
+1. Limitations of current model structure-
+•	What MMM methodology can be used to better reflect the consumer acquisitions
+•	How to understand or analyse the current results, given the fact that it's one-tier Model
+•	Propose an approach to Bolt that could be used in the future(about Multi-tier Model)
+
+2. Can we create response curves & optimization scenarios for non-media spends? If not, why?
+
+3. More Suggestions on effectiveness terminology
+
+Could you please help us resolve this at the earliest.
+
+Also, no other slot is available wherein everyone can come together. If not, then could you recommend another time today?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

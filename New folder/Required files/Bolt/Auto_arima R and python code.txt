@@ -1,0 +1,685 @@
+_____________________________________________________________________________________________________________________________
+
+#setwd("D:\\Kavya 05Feb2020\\Time_Tracker\\TT_11th_May")
+#setwd("C:\\Users\\kavyahbhat\\Downloads\\timetrackerfiles\\TT_04-01-2020")
+
+
+
+setwd("D:\\SynologyDrive\\Kavya 05Feb2020\\Time_Tracker\\2021\\Sreya's New Request")
+library(readxl)
+
+
+library(dplyr)
+library(lubridate)
+library(sqldf)
+
+#files <- list.files(path = "C:/Users/kavyahbhat/Downloads/timetraker_new", pattern = "*.xlsx", full.names = T)
+
+
+#---| PREVIOUS WEEK: LOAD AND SUMMARIZE |---
+
+#load(file="C:/Users/kavyahbhat/Downloads/Data-20190909/Data-20190909/df_tt_w20190812.Rdata")
+#load("C:\\Users\\kavyahbhat\\Downloads\\timetrackerfiles\\tt_22_12_2019\\df_tt_w20191202.Rdata")
+#chk_prevw <- df_tt_w20190909 %>% group_by(Employee.name, Employee.Code) %>% summarise(Min=min(WeekStart), Max=max(WeekStart))
+
+#---| LOCAL DIRECTORY |---
+## sujit,sekar,amisha,swathi,dhanusha
+
+#Current
+
+#---| Read data and data cleaning |---Team JIMIT--
+tt_60 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Jimit Shah')
+tt_22 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Sashank Ramesh')
+tt_71 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Kavya H Bhat')
+tt_58 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Amisha Kapoor')
+tt_80 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Dhanusha')
+tt_82 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Sreya Ghosh')
+tt_C13 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Susan Philipose')
+tt_95 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Richa Gulwani')
+tt_I18 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Rujul Parekh')
+tt_98 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Ankur')
+tt_100 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Ishita Ghosh')
+tt_97 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Aakash Gupta')
+tt_101 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Arnav')
+tt_102 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Lekha')
+
+tt_93 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Hardik')
+tt_88 <- read_excel("New Time Tracker_Team Jimit.xlsx", sheet = 'Alok')
+
+  
+
+############-- Team Hamid--####
+
+tt_50 <- read_excel("New Time Tracker_Team Hamid.xlsx", sheet = 'Mohammad Hamid')
+tt_62 <- read_excel("New Time Tracker_Team Hamid.xlsx", sheet = 'DR Dinakaran')
+tt_61 <- read_excel("New Time Tracker_Team Hamid.xlsx", sheet = 'Mohit Aggrawal')
+tt_69 <- read_excel("New Time Tracker_Team Hamid.xlsx", sheet = 'Shashank Agrawal')
+tt_72 <- read_excel("New Time Tracker_Team Hamid.xlsx", sheet = 'Ajay Joshi')
+tt_33 <- read_excel("New Time Tracker_Team Hamid.xlsx", sheet = 'Sekar Subramanian')
+tt_i10 <- read_excel("New Time Tracker_Team Hamid.xlsx", sheet = 'Deepak Singh')
+
+tt_77 <- read_excel("New Time Tracker_Team Hamid.xlsx", sheet = 'Prasad Degala')
+tt_i12 <- read_excel("New Time Tracker_Team Hamid.xlsx", sheet = 'Gowtham P. Sabareesan')
+
+
+
+tt_60 <- subset(tt_60, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_22 <- subset(tt_22, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+#tt_41 <- subset(tt_41, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+#tt_64 <- subset(tt_64, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_71 <- subset(tt_71, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_27 <- subset(tt_27, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_50 <- subset(tt_50, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_62 <- subset(tt_62, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_61 <- subset(tt_61, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_58 <- subset(tt_58, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_i9 <- subset(tt_i9, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_69 <- subset(tt_69, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_72 <- subset(tt_72, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_33 <- subset(tt_33, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_i10 <- subset(tt_i10, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+
+
+tt_20 <- subset(tt_20, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+
+tt_38 <- subset(tt_38, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+
+tt_73 <- subset(tt_73, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+
+
+tt_75 <- subset(tt_75, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+tt_77 <- subset(tt_77, 'Project Activity' != 0 &' Project Activity' != 'FALSE' & 'Project Activity' != '' )
+
+
+
+
+
+data_dump <- rbind(tt_60,tt_22,tt_71,tt_58,tt_80,tt_82,tt_C13,tt_95,tt_I18,tt_98,tt_100,tt_97,tt_101,tt_102,tt_93,tt_88,tt_50,tt_62,tt_61,tt_69,tt_72,tt_33,tt_i10,tt_77,tt_i12)
+data_dump$Date <- as.Date(ymd(data_dump$Date))
+data_dump$Week <- as.Date(ymd(data_dump$Week))
+
+class(data_dump$Week)
+
+#str(data_dump)
+
+
+
+
+
+
+#---| FINAL DATA FOR WEEK |---
+
+df_tt_w2020_03_09 <- data_dump
+
+#Save Data
+getwd()
+save(df_tt_w2020_03_09, file = "df_tt_w2020_May_12th.Rdata")
+
+#---| REPORT: RESOURCE by WEEKS |---
+
+
+df_final <- df_tt_w2020_03_09
+
+write.csv(df_final, file = "DataDump-TimeTracker_1st_Aug_2021.csv", row.names = FALSE)
+names(df_final)
+####################################################################
+#changing variable names
+names(df_final)[3] <- "Employee.Code"
+names(df_final)[4] <- "Employee.name"
+names(df_final)[5] <- "Project.Name"
+names(df_final)[6] <- "Project.Activity"
+names(df_final)[7] <- "Time.Spent..in.Hrs.."
+
+###################################################
+
+#names(df_final)
+df_people <- sqldf('select distinct "Employee.name",
+                   "Employee.Code",
+                   "Week",
+                   sum("Time.Spent..in.Hrs..") as TimeSpent,
+                   40 as TimeAllocated
+                   from df_final
+                   group by 1,2,3
+                   order by 2,1,3
+                   ')
+
+df_people$Utilization <- df_people$TimeSpent/df_people$TimeAllocated
+#write_excel(df_people,file = "Report.csv", sheetName = "Resource", row.names = FALSE, col.names = TRUE, append = FALSE)
+
+write.csv(df_people,file = "Report-AnalyticsTimeTracker-1st_Aug_2021.csv")
+
+
+
+_________________________________________________________________________________________________________________________________
+
+
+
+
+
+I have completed the modelling for two categories halfway and expect to complete it by ________ (Date).
+
+I understand that this delay causes great inconvenience, and I am ready to help in any way possible to rectify the situation.
+
+q avg price is ratio of dollars and Eq units while Eq base price is ratio of dollars and Eq base units
+Add Price Index variable (Eq avg price /  Eqbase price)
+
+
+
+
+ 
+First setting up the channel and then PPG
+And calculated--Average [ Eq price (dollars / Eq units)]
+base price =Average  [Base dollars / Eq base units]
+Price Index = Average [Eq avg price /  Eq base price ]
+
+
+Hi Mohit 
+yest morning I had completed t data prep n comp PPG's for t brand Think! except Amazon channel  
+It's completed for Albertsons ,BJS,shop n stop,Walgreens 
+data prep Not yet completed for Amazon as stated in the mail that this will be discussd over call.
+
+Let me know if this data needs to be shared via mail or not.
+
+
+
+Hi Sir,
+Just wanted to ask what's the dead line for me to complete R & D on Amazon's DeepAR univariate forecasting. If this is my priority I can spend more time on this and complete it. 
+Since I started working on "US_Glanbia_Pricing_Feb2020"  Just team wanted to know my time estimation for this project(I mean how much time I can spend on this project). based on that they can assign me a work.
+
+Overall I just wanted to know the priority. 
+
+################### R code #############
+
+setwd("D:\\Coco-Cola\\India_Phase2\\Data_prep_files")
+
+spk<-read.xlsx("category_files.xlsx")
+tail(spk)
+
+Forecast.allStates <- as.data.frame(lapply(ts(spk,start = c(2015, 1),  frequency = 12), function(x) forecast(auto.arima(x),h=12)))
+Forecast.allStates
+write.csv(Forecast.allStates,file = "SPK_Forecasts_March.csv")
+
+Can we get ppt of t respective sessions once after completing this training?
+ 
+Can I get PPT of the session?
+#######################################################################################################################
+
+
+####################### python code #########################################
+
+# !pip install pmdarima
+
+  from pmdarima.arima import auto_arima
+
+  arima_length=12
+  model = auto_arima(arima_data,m=12)
+  model.fit(arima_data)
+
+  forecast = model.predict( n_periods = arima_length )
+
+  forecast = pd.DataFrame(forecast , columns=['Prediction'])
+
+###############################################################################
+
+Tmax
+Avg_precip
+Economy
+Unemployment
+Total_SPK
+VolSales
+Tmax_Diff_YOY
+Avg_precip_Diff_YOY
+Economy_Diff_YOY
+Unemployment_Diff_YOY
+Tmax_Diff_MOM
+Avg_precip_Diff_MOM
+Economy_Diff_MOM
+Unemployment_Diff_MOM
+DT_Tmax_using_sales_index
+DT_Avg_precip_using_sales_index
+DT_Economy_using_sales_index
+DT_Unemployment_using_sales_index
+DT_Tmax_MOM
+DT_Avg_precip_MOM
+DT_Economy_MOM
+DT_Unemployment_MOM
+DT_%Tmax_sales_index
+DT_%Avg_precip_sales_index
+DT_%Economy_sales_index
+DT_%Unemployment_sales_index
+Ensemble
+Actualised
+Actualised_3MMT
+Actualised_6MMT
+3MMT_Ensemble
+3MMT_VolSales
+6MMT_Ensemble
+6MMT_VolSales
+3MMT_Category
+6MMT_Category
+3MMT_forecast
+Error
+Tmax3MMT
+Avg_precip3MMT
+Economy3MMT
+Unemployment3MMT
+3MMTTmax_using_sales_index
+3MMTAvg_precip_using_sales_index
+3MMTEconomy_using_sales_index
+3MMTUnemployment_using_sales_index
+Tmax6MMT
+Avg_precip6MMT
+Economy6MMT
+Unemployment6MMT
+6MMTTmax_using_sales_index
+6MMTAvg_precip_using_sales_index
+6MMTEconomy_using_sales_index
+6MMTUnemployment_using_sales_index
+
+
++______________________________________________________
+
+Later today Let's follow up with NRC again to have his thoughts on your email
+I am sure he will not get back to us untill 
+Please let me know if we could get on a call to discuss the same.
+URC-7
+FB- Data process
+CCI-7
+
+arm pain around spot the where i got the injection
+
+1. Set up a meeting with Ashwin,Nandini
+
+Bolt -Quries related to RCs/simulation on platform
+
+
+This is regarding "London-Bolt" project - 
+ 
+We are in a need to run/build Response curves & simulation(on platform) for this project . 
+and hence reaching out to you in order to understand if we have a ready made/customised capability available on DDE platform.
+Or if there is any pre-requisite missing for running this analysis
+
+So Blocking your calender to discuss the same.
+Looking Forward.
+
+If there is a conflict, please do suggest an alternate time to connect
+
+weekly considers- 52 weeks
+
+1.how do we go about building the RC or how generally RCs built?
+2.what are number of data points it is considering if it's daily level model?
+
+3.If we update the new data , can we take the previous data that we had for RC? for publishing model n RC ? 
+
+how generally RC built?
+how much time period RC generally being biult in the platform?
+
+
+Blocking time for discussion over the model results.
+I would request a combined call with the team copied in CC to understand the feasibility.
+
+Blocking sometime for tomorrow to discuss the LT effects of Media to be done for all Mondelez projects.
+Do let me know if the suggested time is not convenient for you.
+Blocking some time on your calendar for a quick overview of the Glanbia pricing analysis project
+ 
+Will send a meeting invite post this email.
+
+
+
+
+and hence i would request a walk through on the test run you and Dinakaran did yesterday, 
+so that we have fundamental knowledge and ask 
+
+
+
+
+
+
+
+This is regarding status update on data collection for holdout period.
+
+Media/Promotion- 
+> We have received & reviewed internally all necessary data required for the model.
+Pending Data items- 
+> Expecting Lifecycle, Categories ETA to receive
+
+
+Please let us know if you need any details or clarifications on any of the points above or the attached files.
+
+will send a meeting invite for data review on tuesday at 2PM
+
+Hi Polina,
+
+We have updated the attached data tracker to reflect the current status of data availability.
+ 
+The following are the key buckets of data that we still await.
+Below are the only few data pieces pending - 
+Required:
+Twitter
+Lifecycle
+ETA categories
+ 
+ 
+Please find attached the updated project and data tracker as well as a slide capturing delivery timelines basis the current status of data availability.
+
+Please let us know when we will be receiving the rest of the data as well to be able to incorporate it in Data review.
+
+
+i.	Lifecycle
+ii.	Categories ETA
+iii.	Twitter
+
+
+
+
+
+Jimit OOH tiktok is something they started executing from 2nd of June
+we will have only 6 or 7 days of data for RC curve.
+
+For Non OOH we inputted spend data as we dont have imp here
+
+the only pending piece is twitter. will create that in sometime.
+If not, then could you recommend another time today?
+
+CCI Forecast Review
+
+2.	Attaching the results of the forecast 
+
+
+Also, sharing the Base summary with detailed Due-to’s and support.
+
+Also, attached the excel summary sheet for your reference for detailed results.
+Please find attached the Sprite preliminary deck. Just wanted to have your review before we send it out to CCI.
+
+Would request you to review it and share your feedback for any further change
+2 - Will start preparing the deck post your review
+Kindly go through it and share your feedback. Also, let's connect in the evening to go through the results post your feedback.
+Please find attached the insights summary sheet (Excel).
+
+Kindly review it and share your feedback.
+
+Please let us know if you are aligned so that we can share the same.
+
+
+
+
+why are we off in our prediction
+
+
+please share your thoughts
+
+There are specific variables which are executed in 2021 and which variables could have different coefficient
+
+I may not 
+
+
+
+
+Before covid also model working well and 
+
+
+
+
+indexted to jan 2020 based on this how it has changed.
+trend are similar to 
+
+
+Moreover, even the model is also responsible for increasing the sign up 2021 as they have invested 
+Media numbers are high remove one effect from other
+
+Sign ups Bridge the gap
+
+Sign u
+Week 01 starts from 17th May assuming all data collection ends on 14th May
+
+
+
+
+
+
+
+
+
+
+I am not as good as you jimit in writing mail
+
+whatever I have written is based on our call or execercise which we have done today
+
+
+
+
+
+
+Hi Polina,
+
+Hope you're doing well
+
+This email is regarding the signups data we received earlier on Thursday..
+
+From the data provided, Now we are referring to the tab called “Daily targeted campaigns” and taken count of users and COST as per calculated in the sheet. Overall, Cost seems very low when we compare it with the Signups cost i.e., from “Campaigns cost” tab(currently using this data).Below table provides you the aggregated data & wanted to confirm with you if there is anything we are missing in the data currently provided.
+ 
+
+
+ for signups cost to capture the better variation and to get unbiased read from the model we are expecting the data that is similar to referral cost(cost & usages by offer value or by campaigns)	
+
+Please let us know if you need any details or clarifications on any of the points above or the attached files
+
+
+Thanks,
+Kavya
+
+
+
+Signup / Event Costs - Pending
+	Bonuses by offer value (e.g.: 8gb off, 10gbp) similar to referral cost (or any other granularity available)
+
+
+Split this based on the campaigns rather than on offer value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi All,
+
+Blocking some time on your calendar tomorrow  to go through the model results.
+If there is a conflict, please do suggest an alternate time to connect.
+
+
+
+Thanks,
+
+Kavya
+
+
+
+
+
+
+
+
+
+
+
+
+i would like to let them know proactively
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hey Jimit,
+
+If you're working on model then find below info FYR
+
+1. I have uploaded data for KPI/usages (you can type on search bar as " KPIonUsages")
+2. Iter7 +signsPromoVar - dropped promo vars having -ve signs
+3. iter8-promo w priors - promo w priors
+4. iter9-WKND PLC split - (Precovid,lockdown & covid) weekends & holiday split
+5. Iter3New PLC Breaks - weekend split (here initial n post days of lockdown are clubbed under lockdown weekend dummy )
+6. Iter4 NwBrks w promo - same along w promo vars
+
+
+
+Hi Jimit 
+
+Also shared MoM for yestredays call with Kasia
+Please feel free to edit or make any changes as you deem right
+
+
+
+
+Hi Kasia,
+
+It was nice to catch up earlier today. Appreciate your time to identify the next steps – 
+
+AE action items :
+
+•	AE to research on Covid restrictions & TFL data for lockdown(https://tfl.gov.uk/) – as here, we may get data for pre-covid period and other lockdown related inputs to build a story.
+•	AE to discuss internally if any kind of Competitor data is available.
+•	AE to set up a meeting with Polina for next Thursday. 
+•	AE to discuss further about the second KPI(LTV/ App Installs) based on Bolt’s business action points
+•	AE to share the process document with Kasia(Attached)
+•	AE to revert with a timeline on completing the two models(mentioned below)
+
+
+Timelines:
+
+•	Please find below the timelines that should be targeted for activation model and prelim presentations – 
+
+Suggestions:
+•	Kasia will get back to us with suggestions if any- on how to source competition data
+
+
+Modelling with end of Oct close by mid nov
+
+Next two weeks -modelling
+
+Top models by end of oct
+
+Nov- final deck
+
+
+
+Hi All,
+
+Sharing the updated summary sheet for today’s call.
+
+Sebastein 
+
+Discussion points:
+
+I have also included contribution summary for the forecasts period and DT comparisons
+If required, please feel free to hide the tabs as you deem necessary.
+
+Kindly go through it and let us know in case of any questions.
+
+Thanks,
+Kavya
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

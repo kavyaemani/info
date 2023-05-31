@@ -1,0 +1,120 @@
+MEASURES	MIXED EFFECTS	MEAN CENTER	 	COEFFICIENT VALUE	STANDARD ERROR	T-STAT	P-VALUE	VIF
+	Intercept			 	1,321.77100	164.958	8.013	0.000	0.000
+	Covid_Fri_Original			 	1,316.14585	171.802	7.661	0.000	1.508
+	Covid_Holiday_Bank			 	626.13105	269.969	2.319	0.021	1.378
+	Covid_Holiday_Christmas			 	1,837.50495	673.239	2.729	0.006	1.081
+	Covid_Holiday_Easter			 	988.27568	270.173	3.658	0.000	1.127
+	Covid_Holiday_Halloween			 	1,640.61915	733.819	2.236	0.026	1.284
+	Covid_Holiday_NewYear			 	615.77274	487.526	1.263	0.207	1.132
+	Covid_Holiday_Others			 	256.80202	673.851	0.381	0.703	1.083
+	Covid_Mon_Original			 	-433.97748	163.449	-2.655	0.008	1.365
+	Covid_Sat_Original			 	2,984.16910	198.166	15.059	0.000	2.006
+	Covid_Sun_Original			 	1,509.43013	180.182	8.377	0.000	1.659
+	Dec_2019			 	2,491.75253	330.920	7.530	0.000	1.557
+	Dec_2020			 	1,155.77360	305.748	3.780	0.000	1.329
+	Halloween_weekend			 	2,404.07649	393.225	6.114	0.000	1.103
+	Holiday_Bank			 	493.53851	497.475	0.992	0.321	1.179
+	Holiday_Christmas			 	5,987.02417	666.240	8.986	0.000	1.058
+	Holiday_Halloween			 	1,222.53628	655.305	1.866	0.062	1.024
+	Holiday_NewYear			 	6,638.26205	471.071	14.092	0.000	1.057
+	Holiday_Others			 	1,081.83023	381.113	2.839	0.005	1.036
+	Lockdown_Fri			 	833.24248	185.557	4.490	0.000	1.210
+	Lockdown_Mon			 	-56.05667	183.273	-0.306	0.760	1.180
+	Lockdown_Sat			 	2,014.96294	189.459	10.635	0.000	1.261
+	Lockdown_Sun			 	964.57795	182.284	5.292	0.000	1.168
+	Mobility_Transit			 	12.35198	3.233	3.820	0.000	14.473
+	Precipitation			 	10.53598	6.021	1.750	0.081	1.131
+	PreCovid_Fri			 	1,328.97006	122.210	10.874	0.000	1.355
+	PreCovid_Mon			 	-361.03534	121.109	-2.981	0.003	1.300
+	PreCovid_Sat			 	3,342.97349	130.205	25.675	0.000	1.539
+	PreCovid_Sun			 	1,800.18256	124.240	14.490	0.000	1.401
+	Event_Cost_Others_F			 	5.31595	72.495	0.073	0.942	2.167
+	Event_FreetripWaitingVol1_Cost_F			 	25.13520	300.719	0.084	0.933	38.812
+	Event_FreetripWaitingVol23_Cost_F			 	60.28080	273.366	0.221	0.826	31.654
+	Event_OOH_Campaign_Cost_F			 	63.76130	117.684	0.542	0.588	5.965
+	Event_RMNFTR10GBP_Cost_F			 	144.46440	150.942	0.957	0.339	4.682
+	Event_RMNFTR8GBP_Cost_F			 	55.04640	180.781	0.304	0.761	8.185
+	Lifecycle_Adhoc_TSM			 	0.00345	0.002	2.253	0.025	1.224
+	Lifecycle_UserCampaign_TSM			 	0.00052	0.000	1.683	0.093	1.320
+	Ref_10gbp_2019F			 	225.53746	266.251	0.847	0.397	2.620
+	Ref_10gbp_C			 	0.00436	0.001	2.925	0.004	3.735
+	Ref_12gbp_2019F			 	572.26764	200.943	2.848	0.005	3.744
+	Ref_12gbp_C			 	0.00148	0.002	0.781	0.435	3.462
+	Ref_Others_C			 	0.00152	0.002	0.654	0.514	3.925
+	Signups_14gbp_E			 	0.03647	0.037	0.980	0.328	4.564
+	Signups_5gbp_E			 	0.13772	0.020	7.018	0.000	3.519
+	Signups_6gbp_E			 	0.21872	0.023	9.472	0.000	11.251
+	Signups_7gbp_E			 	0.18836	0.016	11.747	0.000	5.458
+	Signups_Others_E			 	0.15587	0.027	5.759	0.000	4.609
+	AppleSearch_Brand_Imp			 	15.02554	39.046	0.385	0.700	6.112
+	AppleSearch_NonBrand_Imp			 	10.67082	53.857	0.198	0.843	6.416
+	FB_Ads_Imp_V2			 	0.47080	0.126	3.722	0.000	7.789
+	FB_BrandAcquisition_Imp_V2			 	0.18128	1.541	0.118	0.906	3.966
+	FBPost_BrandAwareness_Imp_V2			 	0.37512	0.565	0.663	0.507	2.994
+	FBPost_engagement_Imp_V2			 	0.43341	0.452	0.959	0.338	3.049
+	FBPost_Reach_Imp_V2			 	0.16524	0.675	0.245	0.807	5.110
+	Google_Imp			 	0.23287	0.120	1.947	0.052	9.141
+	Google_SearchBrand_Imp			 	11.15027	51.498	0.217	0.829	15.197
+	Google_SearchNonBrand_Imp			 	8.95388	23.924	0.374	0.708	14.412
+	Google_Video_Imp			 	0.06827	0.361	0.189	0.850	5.852
+	Influencer_reach			 	0.91346	3.964	0.230	0.818	19.218
+	NonDigital_besidesOOH_spend			 	0.04674	0.121	0.386	0.700	2.666
+	OOH_AdPlays_2021			 	0.72770	0.175	4.159	0.000	5.692
+	OOH_Imp_without_Q2_2021			 	0.15227	0.092	1.663	0.097	14.297
+	OOH_TikTok_Imp			 	0.03140	0.939	0.033	0.973	6.054
+	Snap_Imp			 	0.12873	0.329	0.392	0.695	9.130
+	TikTok_Impression			 	0.07615	0.225	0.338	0.736	4.750
+	Total_TwitterAds_Imp			 	0.19786	0.707	0.280	0.780	4.619
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi Polina,
+
+Following are the meeting notes from yesterday’s call:
+
+Required information from Bolt’s side:
+•	Typical Decay between two dates(created, expired):
+i.e., Behaviour of the consumer in terms of ‘probability’ (Probability of using the signup coupon till the expiration date).
+•	It would be very helpful if you could confirm on the signups circulation numbers that are missing for a few days (09.10 to 12.10)
+
+Next steps for AE:
+1.	First Model:
+•	AE to revise the activation model by applying some kind of decay to the sign ups circulations and then forecast the KPI to understand the underprediction a little better.
+•	If tweaking the model doesn’t work, then we will proceed to create a presentation for the activation model already built.
+
+2.	Second Model:
+•	AE to start modelling the second KPI “Registered users” without using Signups & lifecycle data.
+•	The model form here will be a Multiplicative model so to get the synergies.
+
+3.	Others
+•	AE to share the template of “FB Lift Study” with Kasia(Attached)
+•	AE to change the recurring meeting invite to CET Tuesday 2pm.
+
+
+Timeline:
+
+
+Thanks,
+Kavya
+
+
+
+
+
+

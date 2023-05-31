@@ -1,0 +1,7 @@
+https://www.stat.pitt.edu/stoffer/tsa4/Chapter6.pdf
+http://techteach.no/fag/seky3322/0708/kalmanfilter/kalmanfilter.pdf
+https://faculty.washington.edu/ezivot/econ584/notes/statespacemodels.pdf
+http://stat.econ.osaka-u.ac.jp/~tanizaki/class/kalman-e/kalman-e.pdf
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5378168/
+https://pdfs.semanticscholar.org/606d/6054ee8c65df4553d0c11b9ccb5a41954465.pdf
+https://nwfsc-timeseries.github.io/atsa-labs/sec-dlm-forecasting-with-a-univariate-dlm.html

@@ -1,0 +1,52 @@
+
+I want to show the decomps chart for base,media and non media variables
+
+If i add these it wont match with the model predicted results because for the total decomps we have to add n multiply w intercept and CF  
+
+can we calculated it separately? only for base or media vars and when sum it up it should match with forecasts
+
+no right?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

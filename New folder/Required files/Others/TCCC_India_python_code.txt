@@ -1,0 +1,205 @@
+import pandas as pd
+import numpy as np
+
+coke= pd.read_excel('state_consolidated5.xlsx')
+print('coke has', coke.shape[0],'observations and',coke.shape[1],'features')
+
+
+
+
+states_name=coke['States'].unique()
+
+df=pd.DataFrame(columns=['Variables_used', 'R2_RF_train','R2_RF_test', 'MAPE_RF_train', 'MAPE_RF_test','MAPE_ANN_train','MAPE_ANN_test'])
+df
+
+pip install xlsxwriter
+
+
+
+
+import xlsxwriter
+r2_mape=[]
+writer_train = pd.ExcelWriter('All_States_Actual_vs_Predicted_train_new1.xlsx', engine='xlsxwriter')  # make sure you create two empty excel file  these names
+writer_test = pd.ExcelWriter('All_States_Actual_vs_Predicted_test_new1.xlsx', engine='xlsxwriter') 
+writer1 = pd.ExcelWriter('All_States_R2_MAPE_new1.xlsx', engine='xlsxwriter')
+
+
+for i in range(len(states_name)):
+    metric=[]
+    state= states_name[i]
+    print('------------------------------------------------------------------------------------------------------')
+    print('Processing for state: ',state)
+    pun_coke=coke[coke['States']== state]   # Give your state name here
+    pun_coke= pun_coke.reset_index()
+    pun_coke2=pun_coke.drop(['States','index'],axis=1)
+    # pun_coke2['ln(Tmax)']=np.log(pun_coke2['Tmax'])
+    # pun_coke2['lag1(Prcp Total)']=pun_coke2['Prcp Total '].shift(1)
+    
+    # pun_coke2=pun_coke2.drop(['Tmax','Prcp Total '], axis=1)
+    
+    # train_1=pun_coke2.iloc[12:66, :]
+    pun_coke2['Date'] = pd.to_datetime(pun_coke2['Date'])
+
+    train_df = pun_coke2[pun_coke2['Date'] <= '2018-08-31']
+    test_df = pun_coke2[pun_coke2['Date'] > '2018-08-31']
+    train_df_target = train_df[['VolSales']]
+    test_df_target = test_df[['VolSales']]
+
+    train_df=train_df.drop(['Date'],axis=1)
+    test_df=test_df.drop(['Date'],axis=1)
+    train_df=train_df.drop(['VolSales'],axis=1)
+    test_df=test_df.drop(['VolSales'],axis=1)
+    
+    metric.append(str((train_df.columns).values.tolist()))
+    # train_target= train[['VolSales']]
+    # train_feature= train.drop(['VolSales'], axis=1)
+    
+    # print(train_feature.shape)
+    # print(train_target.shape)
+    
+    ################################## Modelling #######################################################
+    
+    def mean_absolute_percentage_error(y_true, y_pred): 
+        y_true, y_pred = np.array(y_true), np.array(y_pred)
+        return np.mean(np.abs((y_true - y_pred) / y_true)*100)
+    
+    
+    # ################################## Random Forest ##############################################
+
+    from sklearn.ensemble import RandomForestRegressor
+    rf = RandomForestRegressor(n_estimators=20, random_state=42)
+    rf.fit(train_df,train_df_target)
+    Train_pred=rf.predict(train_df)
+    Test_pred=rf.predict(test_df)
+
+    actual_test=list(test_df_target['VolSales'])
+    actual_train=list(train_df_target['VolSales'])
+
+    
+    Results_test=pd.DataFrame(data=Test_pred, columns=['pred_Random_Forest_test'])
+    Results_test.insert(loc=1, column='Actual_value_test_rf', value=actual_test)
+
+    Results_train=pd.DataFrame(data=Train_pred, columns=['Train_Pred_Random_Forest'])
+    Results_train.insert(loc=1, column='Actual_value_train_rf', value=actual_train)
+
+    print("R_square for training data:",rf.score(train_df,train_df_target))
+    print("R_square for testing data:",rf.score(test_df,test_df_target))
+    print("MAPE for training data:",mean_absolute_percentage_error(train_df_target['VolSales'], Train_pred))
+    print("MAPE for testing data:",mean_absolute_percentage_error(test_df_target['VolSales'], Test_pred))
+    print(rf.feature_importances_)
+    r2_train=rf.score(train_df,train_df_target)
+    r2_test=rf.score(test_df, test_df_target)
+    mape_train=mean_absolute_percentage_error(train_df_target['VolSales'], Train_pred)
+    mape_test=mean_absolute_percentage_error(test_df_target['VolSales'], Test_pred)
+    metric.append(r2_train)
+    metric.append(r2_test)
+    metric.append(mape_train)
+    metric.append(mape_test)
+
+    ################################## ANN ##############################################
+    
+    from keras import models
+    from keras import layers
+
+    def build_model():
+      model = models.Sequential()
+      model.add(layers.Dense(1024, activation='relu',
+      input_shape=(train_df.shape[1],)))
+      model.add(layers.Dense(1024, activation='relu'))
+      model.add(layers.Dense(1))
+      model.compile(optimizer='rmsprop', loss='mse', metrics=['mae'])
+      return model
+    
+    model_ann = build_model()
+    model_ann.fit(train_df, train_df_target, epochs=500,batch_size=16, verbose=0)
+    #test_mse_score, test_mae_score = model_ann.evaluate(test_feature,test_target)
+    Train_pred=model_ann.predict(train_df)
+    Test_pred=model_ann.predict(test_df)
+    
+
+    actual_test=list(test_df_target['VolSales'])
+    actual_train=list(train_df_target['VolSales'])
+    
+    Results_test.insert(loc=2, column='pred_ANN_test', value=Test_pred)
+    Results_test.insert(loc=3, column='Actual_value_test_ann', value=actual_test)
+    Results_train.insert(loc=2, column='Pred_ANN_train', value=Train_pred)
+    Results_train.insert(loc=3, column='Actual_value_train_ann', value=actual_train)
+    print("MAPE for training data:",mean_absolute_percentage_error(train_df_target['VolSales'], Train_pred))
+    print("MAPE for testing data:",mean_absolute_percentage_error(test_df_target['VolSales'], Test_pred))
+    #r2_train=model_ann.score(train_df,train_df_target)
+    #r2_test=model_ann.score(test_df, test_df_target)
+    mape_train=mean_absolute_percentage_error(train_df_target['VolSales'], Train_pred)
+    mape_test=mean_absolute_percentage_error(test_df_target['VolSales'], Test_pred)
+    #metric.append(r2_train)
+    #metric.append(r2_test)
+    metric.append(mape_train)
+    metric.append(mape_test)
+    print(metric)
+
+
+###################################  LR  ################################################
+################################## Linear Regression ##############################################
+    
+    # from sklearn.linear_model import LinearRegression
+    # reg = LinearRegression().fit(train_df,train_df_target)
+    # Train_pred=reg.predict(train_df)
+    # Test_pred=reg.predict(test_df)
+    # list_test=[]
+    # # list_test=[]
+    # # for i in range(len(Test_pred)):
+    # #     list_test.append((Test_pred[i])[0])
+    # # list_train=[]
+    # # for i in range(len(Train_pred)):
+    # #     list_train.append((Train_pred[i])[0])
+
+    # actual_test=list(test_df_target['VolSales'])
+    # actual_train=list(train_df_target['VolSales'])
+    # # Test_Results=pd.DataFrame(data=Test_pred, columns=['pred_Linear_Regression'])
+    # # Test_Results.insert(loc=1, column='Actual_value', value=actual_test)
+
+   
+
+    # Results_test.insert(loc=4, column='pred_Linear_reg_test', value=Test_pred)
+    # Results_test.insert(loc=5, column='Actual_value_test_LR', value=actual_test)
+    # Results_train.insert(loc=4, column='Train_Pred_Linear_reg', value=Train_pred)
+    # Results_train.insert(loc=5, column='Actual_value_train_LR', value=actual_train)
+
+
+
+
+    
+    # print(" R_square for training data:",reg.score(train_df,train_df_target))
+    # print("R_square for testing data:",reg.score(test_df,test_df_target))
+    # print(" MAPE for training data:",mean_absolute_percentage_error(train_df_target['VolSales'], Train_pred))
+    # print("MAPE for testing data:",mean_absolute_percentage_error(test_df_target['VolSales'], Test_pred))
+    # r2_train=reg.score(train_df,train_df_target)
+    # r2_test=reg.score(test_df, test_df_target)
+    # mape_train=mean_absolute_percentage_error(train_df_target['VolSales'], Train_pred)
+    # mape_test=mean_absolute_percentage_error(test_df_target['VolSales'], Test_pred)
+    # metric.append(r2_train)
+    # metric.append(r2_test)
+    # metric.append(mape_train)
+    # metric.append(mape_test)
+
+
+
+
+    metric1=[metric]
+    df1=pd.DataFrame(data=metric1, columns=df.columns)
+    print(df1)
+    # df1.to_csv('/content/results.csv')
+    
+    # train_1= train_1.reset_index()
+    # Train_Results.insert(loc=0, column='Date', value=train_1['Date'])
+    
+    r2_mape.append(df1)
+    
+    df1.to_excel(writer1, sheet_name=state)
+    # df2.to_excel(writer2,sheet_name=state)
+    
+    Results_train.to_excel(writer_train, sheet_name=state)
+    Results_test.to_excel(writer_test, sheet_name=state)
+    
+writer_test.save()
+writer1.save()
+writer_train.save()
