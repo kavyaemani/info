@@ -4,7 +4,7 @@ I am a graduate student pursuing a Master's in Machine Learning and Data Science
 
 Key Skills and Expertise:
 Programming and Tools: Proficient in Python, R, SQL, Tableau, and C++.
-Machine Learning and Deep Learning: Hands-on experience in developing predictive analytics models, implementing advanced statistical techniques (e.g., regression analysis, clustering, time series forecasting), and applying Generative AI solutions.
+Machine Learning and Deep Learning: Hands-on experience in developing predictive analytics models, implementing advanced statistical techniques (regression analysis, Random Forest, Gradient Boost, clustering, time series forecasting), and applying Generative AI solutions.
 Scalable ML Systems: Designed and deployed scalable machine learning systems to extract business insights, optimize processes, and improve efficiency.
 Deep Learning Research: Experienced in exploring and applying deep learning methods to solve complex problems.
 I am passionate about using data to uncover patterns, solve challenging problems, and create meaningful impacts. I enjoy leveraging innovative techniques to deliver actionable insights and drive business outcomes.
